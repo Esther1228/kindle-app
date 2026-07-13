@@ -1,0 +1,147 @@
+{
+  "date": "2026-07-13",
+  "generatedAt": "2026-07-13T07:25:49.998Z",
+  "attribution": {
+    "source": "Follow Builders",
+    "canonical": "https://github.com/zarazhangrui/follow-builders"
+  },
+  "sections": [
+    {
+      "label": "Builder 观点",
+      "items": [
+        {
+          "title": "Guillermo Rauch：别把企业的“大脑”外包给单一模型",
+          "summary": "模型应该只是你所掌控系统中的一个部件。真正需要长期拥有的是数据、evals、模型选择权和软件层；用开放的 Agent API 与可替换的模型路由，才能避免能力、成本和隐私都被单一供应商锁定。",
+          "sourceUrl": "https://x.com/rauchg/status/2076364176252191222",
+          "sourceName": "Guillermo Rauch · X",
+          "permalink": "https://x.com/rauchg/status/2076364176252191222",
+          "attribution": {
+            "source": "Follow Builders",
+            "canonical": "https://x.com/rauchg/status/2076364176252191222"
+          }
+        },
+        {
+          "title": "Aaron Levie：企业 AI 的价值在模型与业务之间",
+          "summary": "前沿模型本身会越来越普及，企业真正的差异来自专有 IP、工作流、evals、模型路由与执行 traces。把通用智能接入具体业务的 applied AI 层，可能成为下一阶段最大的企业软件机会。",
+          "sourceUrl": "https://x.com/levie/status/2076338364635287637",
+          "sourceName": "Aaron Levie · X",
+          "permalink": "https://x.com/levie/status/2076338364635287637",
+          "attribution": {
+            "source": "Follow Builders",
+            "canonical": "https://x.com/levie/status/2076338364635287637"
+          }
+        },
+        {
+          "title": "Nikunj Kothari：先回答“为谁解决什么”，再让 token 狂奔",
+          "summary": "多 agent 和超长推理可以迅速消耗大量 token，但很多项目仍说不清用户是谁、问题是什么。AI 让执行变快之后，方向、取舍和简单性反而更重要；先确认产品值得做，再扩大计算投入。",
+          "sourceUrl": "https://x.com/nikunj/status/2076458876816540144",
+          "sourceName": "Nikunj Kothari · X",
+          "permalink": "https://x.com/nikunj/status/2076458876816540144",
+          "attribution": {
+            "source": "Follow Builders",
+            "canonical": "https://x.com/nikunj/status/2076458876816540144"
+          }
+        },
+        {
+          "title": "Zara Zhang：把会议记录直接当作 PRD",
+          "summary": "团队在会议中讨论功能后，将完整 transcript 交给 Codex，就能快速做出可操作原型。会议不再只是需求形成的前置步骤，它本身可以成为包含语境、约束和决策过程的 prompt。",
+          "sourceUrl": "https://x.com/zarazhangrui/status/2076300222884626754",
+          "sourceName": "Zara Zhang · X",
+          "permalink": "https://x.com/zarazhangrui/status/2076300222884626754",
+          "attribution": {
+            "source": "Follow Builders",
+            "canonical": "https://x.com/zarazhangrui/status/2076300222884626754"
+          }
+        },
+        {
+          "title": "Swyx：没有优势反馈的多轮 rollout 只是在重复",
+          "summary": "让 agent 反复尝试并不自动带来进步。关键是能否进行 introspection，把失败信号和评估结果反向传回下一轮；如果没有可比较的 expected advantage，多次 rollout 只是增加成本。",
+          "sourceUrl": "https://x.com/swyx/status/2076345087634620528",
+          "sourceName": "Swyx · X",
+          "permalink": "https://x.com/swyx/status/2076345087634620528",
+          "attribution": {
+            "source": "Follow Builders",
+            "canonical": "https://x.com/swyx/status/2076345087634620528"
+          }
+        },
+        {
+          "title": "Peter Yang：社区反弹时，更应该透明沟通",
+          "summary": "面对用户质疑，减少沟通通常会让不信任继续积累。更有效的方式是让团队成员直接、有人味地解释取舍与限制，并持续回应社区，而不是只留下经过包装的官方口径。",
+          "sourceUrl": "https://x.com/petergyang/status/2076512796481880270",
+          "sourceName": "Peter Yang · X",
+          "permalink": "https://x.com/petergyang/status/2076512796481880270",
+          "attribution": {
+            "source": "Follow Builders",
+            "canonical": "https://x.com/petergyang/status/2076512796481880270"
+          }
+        }
+      ]
+    },
+    {
+      "label": "产品与模型",
+      "items": [
+        {
+          "title": "OpenAI 调整 GPT-5.6 Sol 用量与上下文计费",
+          "summary": "推理优化让付费订阅用户获得约 10% 的额外用量。与此同时，Codex 的上下文上限暂时从 372k 回退至 272k，以修正超额计费问题；团队表示修复后会恢复，并继续处理 high/xhigh 模式过度调用多 agent 的情况。",
+          "sourceUrl": "https://x.com/thsottiaux/status/2076495156757577895",
+          "sourceName": "Thibault Sottiaux · X",
+          "permalink": "https://x.com/thsottiaux/status/2076495156757577895",
+          "attribution": {
+            "source": "Follow Builders",
+            "canonical": "https://x.com/thsottiaux/status/2076495156757577895"
+          }
+        },
+        {
+          "title": "Claude 延长 Fable 5 权益并提高 Claude Code 周限额",
+          "summary": "Claude 宣布在所有付费方案中延长 Fable 5 的可用期，并将 Claude Code 的周使用限额临时提高 50%，活动持续到 7 月 19 日。官方提醒，用户在切换模型或使用额外 credits 前，最多可将约一半周额度用于 Fable 5。",
+          "sourceUrl": "https://x.com/claudeai/status/2076351399999557669",
+          "sourceName": "Claude · X",
+          "permalink": "https://x.com/claudeai/status/2076351399999557669",
+          "attribution": {
+            "source": "Follow Builders",
+            "canonical": "https://x.com/claudeai/status/2076351399999557669"
+          }
+        },
+        {
+          "title": "Replit 用三条并行分支 fine-tune Qwen-8B 下棋",
+          "summary": "Amjad Masad 分享了用三条并行分支微调 Qwen-8B 下棋的实验。这个案例的重点不只是棋力，而是现成模型、工具和并行实验正在降低 ML 门槛，让具备产品直觉但非传统研究背景的人也能快速验证想法。",
+          "sourceUrl": "https://x.com/amasad/status/2076227936202662357",
+          "sourceName": "Amjad Masad · X",
+          "permalink": "https://x.com/amasad/status/2076227936202662357",
+          "attribution": {
+            "source": "Follow Builders",
+            "canonical": "https://x.com/amasad/status/2076227936202662357"
+          }
+        },
+        {
+          "title": "Sam Altman 征集 GPT-5.6 Sol 的真实作品",
+          "summary": "OpenAI 正在收集社区用 GPT-5.6 Sol 完成的有趣项目，并计划从公开作品中挑选案例给予奖励。对团队而言，这也是观察新模型在编码、agent 和创作场景中真实边界的一次窗口。",
+          "sourceUrl": "https://x.com/sama/status/2076398253332140410",
+          "sourceName": "Sam Altman · X",
+          "permalink": "https://x.com/sama/status/2076398253332140410",
+          "attribution": {
+            "source": "Follow Builders",
+            "canonical": "https://x.com/sama/status/2076398253332140410"
+          }
+        }
+      ]
+    },
+    {
+      "label": "深度播客",
+      "items": [
+        {
+          "title": "No Priors：Valar Atomics 想给核能带来“Ford 时刻”",
+          "summary": "Isaiah Taylor 想把反应堆从大型土木工程变成可批量制造、持续迭代的工业产品，为核能带来“Ford 时刻”。\n\nValar 选择先做真实测试：一套传统报价 2.5 年、500 万美元的保护系统，团队称其用约 6 周、40 万美元完成；100kW 试验反应堆还能由 C-17 运输。\n\n他的核心判断是，当 AI 与机器人提高劳动效率后，能源将成为商品成本的关键变量；核能若实现 speed and scale，会直接扩大算力与制造的上限。",
+          "sourceUrl": "https://www.youtube.com/watch?v=5Xvbq_zvOQ4",
+          "sourceName": "No Priors Podcast",
+          "permalink": "https://www.youtube.com/watch?v=5Xvbq_zvOQ4",
+          "attribution": {
+            "source": "Follow Builders",
+            "canonical": "https://www.youtube.com/watch?v=5Xvbq_zvOQ4"
+          }
+        }
+      ]
+    }
+  ],
+  "flashes": []
+}
