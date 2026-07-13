@@ -298,78 +298,108 @@
     .csp-btn-cancel { border: 1px solid #000; background: #fff; color: #000; }
     .csp-btn-confirm { margin-left: 16px; background: #030303; color: #fff; border: none; }
 
-    /* ── Noodle Page ───────────────────────────────────── */
-    .noodle-page {
+    /* ── Codex Weekly Usage ────────────────────────────── */
+    .quota-page {
       -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; min-height: 0;
       display: -webkit-box; display: -webkit-flex; display: flex;
       -webkit-box-orient: vertical; -webkit-flex-direction: column; flex-direction: column;
+      position: relative;
     }
-    .noodle-state {
+    .quota-header {
+      -webkit-flex-shrink: 0; flex-shrink: 0;
+      padding: 32px 56px 26px; border-bottom: 3px solid #000;
+      display: -webkit-box; display: -webkit-flex; display: flex;
+      -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between;
+      -webkit-box-align: center; -webkit-align-items: center; align-items: center;
+    }
+    .quota-brand {
+      display: -webkit-box; display: -webkit-flex; display: flex;
+      -webkit-box-align: center; -webkit-align-items: center; align-items: center;
+    }
+    .quota-mark { width: 44px; height: 44px; object-fit: contain; margin-right: 16px; }
+    .quota-kicker { font-size: 18px; font-weight: bold; letter-spacing: 0; color: #444; }
+    .quota-title { font-size: 44px; font-weight: bold; line-height: 1.08; color: #000; margin-top: 2px; }
+    .quota-status { font-size: 20px; color: #555; text-align: right; }
+    .quota-meter {
       -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; min-height: 0;
+      padding: 34px 56px 30px;
       display: -webkit-box; display: -webkit-flex; display: flex;
       -webkit-box-orient: vertical; -webkit-flex-direction: column; flex-direction: column;
-    }
-    .noodle-header { -webkit-flex-shrink: 0; flex-shrink: 0; padding: 31px 63px 0; text-align: center; }
-    .noodle-title { font-size: 48px; font-weight: bold; color: #000; line-height: 1.2; }
-    .noodle-subtitle { font-size: 24px; color: #555; margin-top: 8px; }
-    .noodle-img-wrap {
-      -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; min-height: 0;
-      overflow: hidden; position: relative;
-    }
-    .noodle-img-wrap img {
-      position: absolute; bottom: 0; left: 50%;
-      -webkit-transform: translateX(-50%); transform: translateX(-50%);
-      width: 564px; height: 564px;
-    }
-    .noodle-actions {
-      -webkit-flex-shrink: 0; flex-shrink: 0; padding: 0 56px 24px;
-      display: -webkit-box; display: -webkit-flex; display: flex;
-      -webkit-box-orient: horizontal; -webkit-flex-direction: row; flex-direction: row;
-      -webkit-box-align: center; -webkit-align-items: center; align-items: center;
-    }
-    .noodle-actions-center {
       -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center;
     }
-    .noodle-time-group {
+    .quota-meter-label { font-size: 24px; color: #555; text-align: center; }
+    .quota-value { text-align: center; color: #000; line-height: 1; margin: 8px 0 26px; }
+    .quota-value-number { font-size: 150px; font-weight: bold; }
+    .quota-value-unit { font-size: 42px; font-weight: bold; margin-left: 8px; }
+    .quota-track { width: 100%; height: 34px; border: 3px solid #000; background: #fff; overflow: hidden; }
+    .quota-fill { width: 0; height: 100%; background: #000; }
+    .quota-reset-band {
+      -webkit-flex-shrink: 0; flex-shrink: 0;
+      border-top: 3px solid #000; border-bottom: 3px solid #000;
       display: -webkit-box; display: -webkit-flex; display: flex;
-      -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; margin-right: 24px;
+      padding: 24px 56px;
     }
-    .ntg-btn {
+    .quota-reset-item { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; min-width: 0; }
+    .quota-reset-item + .quota-reset-item { border-left: 2px solid #000; padding-left: 34px; margin-left: 34px; }
+    .quota-reset-label { font-size: 20px; color: #555; margin-bottom: 7px; }
+    .quota-reset-value { font-size: 29px; font-weight: bold; line-height: 1.2; white-space: nowrap; }
+    .quota-controls { -webkit-flex-shrink: 0; flex-shrink: 0; padding: 22px 56px 28px; }
+    .quota-update {
+      width: 100%; height: 68px; border: 3px solid #000; background: #000; color: #fff;
+      font-size: 29px; font-weight: bold; cursor: pointer;
+    }
+    .quota-editor {
+      position: absolute; z-index: 20; top: 0; right: 0; bottom: 0; left: 0;
+      background: #fff; display: -webkit-box; display: -webkit-flex; display: flex;
+      -webkit-box-orient: vertical; -webkit-flex-direction: column; flex-direction: column;
+    }
+    .quota-editor-header {
+      height: 104px; padding: 0 56px; border-bottom: 3px solid #000;
+      display: -webkit-box; display: -webkit-flex; display: flex;
+      -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between;
+      -webkit-box-align: center; -webkit-align-items: center; align-items: center;
+      -webkit-flex-shrink: 0; flex-shrink: 0;
+    }
+    .quota-editor-title { font-size: 38px; font-weight: bold; }
+    .quota-editor-close { width: 60px; height: 60px; border: 0; background: #fff; font-size: 48px; line-height: 1; cursor: pointer; }
+    .quota-editor-body { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; min-height: 0; padding: 34px 56px 24px; }
+    .quota-field-label { font-size: 22px; font-weight: bold; margin-bottom: 12px; }
+    .quota-stepper { height: 72px; display: -webkit-box; display: -webkit-flex; display: flex; border: 3px solid #000; }
+    .quota-step-btn {
+      width: 118px; border: 0; background: #fff; color: #000;
+      font-size: 42px; font-weight: bold; line-height: 1; cursor: pointer;
+    }
+    .quota-step-btn:first-child { border-right: 3px solid #000; }
+    .quota-step-btn:last-child { border-left: 3px solid #000; }
+    .quota-draft {
       -webkit-box-flex: 1; -webkit-flex: 1; flex: 1;
       display: -webkit-box; display: -webkit-flex; display: flex;
       -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center;
       -webkit-box-align: center; -webkit-align-items: center; align-items: center;
-      padding: 22px 32px; cursor: pointer; border: 2px solid #000; background: none;
+      font-size: 34px; font-weight: bold;
     }
-    .ntg-left { border-radius: 45px 0 0 45px; margin-right: -1px; }
-    .ntg-right { border-radius: 0 45px 45px 0; }
-    .ntg-btn.selected { background: #000; }
-    .ntg-val { font-size: 32px; font-weight: bold; line-height: 1; color: #000; }
-    .ntg-unit { font-size: 24px; line-height: 1; color: #000; margin-left: 4px; }
-    .ntg-btn.selected .ntg-val, .ntg-btn.selected .ntg-unit { color: #fff; }
-    .btn-noodle-start {
-      -webkit-box-flex: 1; -webkit-flex: 1; flex: 1;
-      display: -webkit-box; display: -webkit-flex; display: flex;
-      -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center;
-      -webkit-box-align: center; -webkit-align-items: center; align-items: center;
-      background: #000; color: #fff; border-radius: 45px; border: 2px solid #000;
-      font-size: 32px; font-weight: bold; line-height: 1; padding: 22px 32px; cursor: pointer;
+    .quota-presets { display: -webkit-box; display: -webkit-flex; display: flex; margin-top: 14px; }
+    .quota-preset {
+      -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; height: 54px;
+      border: 2px solid #000; border-right: 0; background: #fff; color: #000;
+      font-size: 24px; font-weight: bold; cursor: pointer;
     }
-    .btn-noodle-outline {
-      display: -webkit-box; display: -webkit-flex; display: flex;
-      -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center;
-      -webkit-box-align: center; -webkit-align-items: center; align-items: center;
-      border: 2px solid #000; border-radius: 45px; background: none;
-      font-size: 32px; font-weight: bold; line-height: 1; color: #000;
-      padding: 22px 32px; cursor: pointer; -webkit-flex-shrink: 0; flex-shrink: 0;
+    .quota-preset:last-child { border-right: 2px solid #000; }
+    .quota-reset-fields { display: -webkit-box; display: -webkit-flex; display: flex; margin-top: 30px; }
+    .quota-reset-field { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; min-width: 0; }
+    .quota-reset-field + .quota-reset-field { margin-left: 20px; }
+    .quota-input {
+      width: 100%; height: 68px; border: 3px solid #000; background: #fff; color: #000;
+      padding: 0 16px; font-size: 24px; font-weight: bold; box-sizing: border-box;
     }
-    .btn-noodle-fill {
-      -webkit-box-flex: 1; -webkit-flex: 1; flex: 1;
+    .quota-editor-actions {
+      -webkit-flex-shrink: 0; flex-shrink: 0; padding: 0 56px 30px;
       display: -webkit-box; display: -webkit-flex; display: flex;
-      -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center;
-      -webkit-box-align: center; -webkit-align-items: center; align-items: center;
-      background: #000; color: #fff; border-radius: 45px;
-      font-size: 32px; font-weight: bold; line-height: 1; padding: 22px 32px; cursor: pointer;
+    }
+    .quota-editor-btn { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; height: 70px; border: 3px solid #000; font-size: 28px; font-weight: bold; cursor: pointer; }
+    .quota-editor-cancel { background: #fff; color: #000; margin-right: 18px; }
+    .quota-editor-save { background: #000; color: #fff; }
+    .quota-error { height: 30px; margin-top: 12px; font-size: 20px; font-weight: bold; color: #000; }
     }
 
     /* ── Reading Page ──────────────────────────────────── */
@@ -982,10 +1012,10 @@
         </div>
         <!-- 03 盖泡面倒计时 -->
         <div class="ob-s2-row">
-          <div class="ob-s2-row-icon"><svg width="60" height="60" viewBox="0.75 1.75 54.5 54.5" fill="none"><path d="M13 15L14.8215 43.5524C14.9811 46.0533 17.0559 48 19.5619 48H36.4381C38.944 48 41.0189 46.0533 41.1785 43.5524L43 15" stroke="#111" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 14L46 14" stroke="#111" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 14C10 14 15.7229 14 19 13C23.7249 11.5582 35.4751 8.05242 41 4.5" stroke="#111" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 22.6875H40" stroke="#111" stroke-width="4.66667" stroke-linecap="round"/><path d="M16 39.6875H40" stroke="#111" stroke-width="4.66667" stroke-linecap="round"/></svg></div>
+          <div class="ob-s2-row-icon"><svg width="60" height="60" viewBox="0 0 56 56" fill="none"><rect x="6" y="13" width="39" height="30" rx="3" stroke="#111" stroke-width="4.67"/><path d="M45 23H51V33H45" stroke="#111" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/><path d="M25 18L16 31H25L21 39L35 25H26L30 18H25Z" fill="#111"/></svg></div>
           <div class="ob-s2-row-text">
-            <div class="ob-s2-row-name">盖泡面倒计时</div>
-            <div class="ob-s2-row-desc">你饿了，我盖在面上——干回老本行</div>
+            <div class="ob-s2-row-name">CODEX 额度余量</div>
+            <div class="ob-s2-row-desc">Weekly 剩余量、重置时间与倒计时</div>
           </div>
           <div class="ob-s2-row-num">03</div>
         </div>
@@ -1276,62 +1306,72 @@
 
     </div>
 
-    <!-- Page 2: Noodle Timer -->
+    <!-- Page 2: Codex Quota -->
     <div id="page-2" class="page" style="display:none">
-      <div class="noodle-page">
-
-        <!-- State 0: Waiting -->
-        <div id="noodle-s0" class="noodle-state">
-          <div class="noodle-header">
-            <div class="noodle-title">听说用Kindle盖泡面会更香～</div>
-            <div class="noodle-subtitle">倒入热水，选好时间，把 Kindle 盖上去</div>
+      <div class="quota-page">
+        <div class="quota-header">
+          <div class="quota-brand">
+            <img class="quota-mark" src="img/codex-mark.png" alt="Codex">
+            <div>
+              <div class="quota-kicker">CODEX USAGE</div>
+              <div class="quota-title">Weekly 用量</div>
+            </div>
           </div>
-          <div class="noodle-img-wrap">
-            <img src="img/kindle_noodle_1_v2.png" alt="">
+          <div class="quota-status" id="codex-quota-status">尚未记录</div>
+        </div>
+        <div class="quota-meter">
+          <div class="quota-meter-label">WEEKLY 剩余</div>
+          <div class="quota-value"><span class="quota-value-number" id="codex-quota-value">--</span><span class="quota-value-unit">%</span></div>
+          <div class="quota-track"><div class="quota-fill" id="codex-quota-fill"></div></div>
+        </div>
+        <div class="quota-reset-band">
+          <div class="quota-reset-item">
+            <div class="quota-reset-label">重置时间</div>
+            <div class="quota-reset-value" id="codex-reset-time">--</div>
           </div>
-          <div class="noodle-actions">
-            <div class="noodle-time-group">
-              <div class="ntg-btn ntg-left selected" id="btn-3min" onclick="selectTime(3)">
-                <span class="ntg-val">3</span><span class="ntg-unit">分钟</span>
+          <div class="quota-reset-item">
+            <div class="quota-reset-label">距离重置</div>
+            <div class="quota-reset-value" id="codex-reset-countdown">--</div>
+          </div>
+        </div>
+        <div class="quota-controls">
+          <button class="quota-update" type="button" onclick="openCodexQuotaEditor()">更新 Weekly</button>
+        </div>
+        <div class="quota-editor" id="codex-quota-editor" style="display:none">
+          <div class="quota-editor-header">
+            <div class="quota-editor-title">更新 Weekly 用量</div>
+            <button class="quota-editor-close" type="button" onclick="closeCodexQuotaEditor()" aria-label="关闭">&times;</button>
+          </div>
+          <div class="quota-editor-body">
+            <div class="quota-field-label">剩余百分比</div>
+          <div class="quota-stepper">
+            <button class="quota-step-btn" type="button" onclick="changeCodexQuota(-5)" aria-label="减少 5%">&minus;</button>
+            <div class="quota-draft"><span id="codex-quota-draft">50</span>%</div>
+            <button class="quota-step-btn" type="button" onclick="changeCodexQuota(5)" aria-label="增加 5%">+</button>
+          </div>
+          <div class="quota-presets">
+            <button class="quota-preset" type="button" onclick="setCodexQuotaDraft(25)">25%</button>
+            <button class="quota-preset" type="button" onclick="setCodexQuotaDraft(50)">50%</button>
+            <button class="quota-preset" type="button" onclick="setCodexQuotaDraft(75)">75%</button>
+            <button class="quota-preset" type="button" onclick="setCodexQuotaDraft(100)">100%</button>
+          </div>
+            <div class="quota-reset-fields">
+              <div class="quota-reset-field">
+                <div class="quota-field-label">重置日期</div>
+                <input class="quota-input" id="codex-reset-date-input" type="date" aria-label="重置日期">
               </div>
-              <div class="ntg-btn ntg-right" id="btn-5min" onclick="selectTime(5)">
-                <span class="ntg-val">5</span><span class="ntg-unit">分钟</span>
+              <div class="quota-reset-field">
+                <div class="quota-field-label">重置时间</div>
+                <input class="quota-input" id="codex-reset-time-input" type="time" aria-label="重置时间">
               </div>
             </div>
-            <div class="btn-noodle-start" onclick="startNoodle()">开始，盖上去</div>
+            <div class="quota-error" id="codex-quota-error"></div>
+          </div>
+          <div class="quota-editor-actions">
+            <button class="quota-editor-btn quota-editor-cancel" type="button" onclick="closeCodexQuotaEditor()">取消</button>
+            <button class="quota-editor-btn quota-editor-save" type="button" onclick="saveCodexQuota()">保存</button>
           </div>
         </div>
-
-        <!-- State 1: Counting -->
-        <div id="noodle-s1" class="noodle-state" style="display:none">
-          <div class="noodle-header">
-            <div class="noodle-title" id="noodle-countdown">泡面焖煮中...剩余 03:00</div>
-            <div class="noodle-subtitle">Kindle 正在发挥它最大的价值</div>
-          </div>
-          <div class="noodle-img-wrap">
-            <img src="img/kindle_noodle_2_v2.png" alt="">
-          </div>
-          <div class="noodle-actions noodle-actions-center">
-            <div class="btn-noodle-outline" style="margin-right:24px" onclick="cancelNoodle()">取消</div>
-            <div class="btn-noodle-outline" onclick="finishNoodle()">提前结束</div>
-          </div>
-        </div>
-
-        <!-- State 2: Done -->
-        <div id="noodle-s2" class="noodle-state" style="display:none">
-          <div class="noodle-header">
-            <div class="noodle-title">面好了，趁热吃吧～</div>
-            <div class="noodle-subtitle">泡面到位，精神食粮也不能少</div>
-          </div>
-          <div class="noodle-img-wrap">
-            <img src="img/kindle_noodle_3_v2.png" alt="">
-          </div>
-          <div class="noodle-actions">
-            <div class="btn-noodle-outline" style="margin-right:24px" onclick="resetNoodle()">再来一碗</div>
-            <div class="btn-noodle-fill" onclick="switchTab(3)">去读书 →</div>
-          </div>
-        </div>
-
       </div>
     </div>
 
@@ -1470,15 +1510,10 @@
         </div>
 
         <div class="nav-icon" onclick="switchTab(2)">
-          <svg width="56" height="56" viewBox="0.75 1.75 54.5 54.5" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_2395_788)">
-              <path d="M13 15L14.8215 43.5524C14.9811 46.0533 17.0559 48 19.5619 48H36.4381C38.944 48 41.0189 46.0533 41.1785 43.5524L43 15" stroke="black" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M10 14L46 14" stroke="black" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M10 14C10 14 15.7229 14 19 13C23.7249 11.5582 35.4751 8.05242 41 4.5" stroke="black" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M16 22.6875H40" stroke="black" stroke-width="4.66667" stroke-linecap="round"/>
-              <path d="M16 39.6875H40" stroke="black" stroke-width="4.66667" stroke-linecap="round"/>
-            </g>
-            <defs><clipPath id="clip0_2395_788"><rect width="56" height="56" fill="white"/></clipPath></defs>
+          <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="6" y="13" width="39" height="30" rx="3" stroke="black" stroke-width="4.67"/>
+            <path d="M45 23H51V33H45" stroke="black" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M25 18L16 31H25L21 39L35 25H26L30 18H25Z" fill="black"/>
           </svg>
         </div>
 
@@ -1553,9 +1588,7 @@
         dailyState.active = false;
         dailyState.currentPage = 0;
       }
-      if (currentTab === 2 && tab !== 2) { pauseNoodleTimer(); }
       if (currentTab === 1 && tab !== 1) { pausePomoTimer(); }
-      if (tab === 2 && noodleState === 1) { resumeNoodleTimer(); }
       forceEinkRefresh(function() {
         for (var i = 0; i <= 4; i++) {
           document.getElementById('page-' + i).style.display = (i === tab) ? '' : 'none';
@@ -1772,64 +1805,115 @@
 
     renderDuoWidget();
 
-    /* ── Noodle Timer ───────────────────────────────────── */
-    var noodleState = 0;
-    var noodleMins = 3;
-    var noodleSecsLeft = 0;
-    var noodleTimer = null;
+    /* ── Codex Weekly Usage ─────────────────────────────── */
+    var CODEX_QUOTA_KEY = 'codex_quota_state_v1';
+    var codexQuotaDraft = 50;
+    var codexQuotaState = null;
 
-    function selectTime(m) {
-      noodleMins = m;
-      document.getElementById('btn-3min').className = 'ntg-btn ntg-left' + (m === 3 ? ' selected' : '');
-      document.getElementById('btn-5min').className = 'ntg-btn ntg-right' + (m === 5 ? ' selected' : '');
+    function clampCodexQuota(value) {
+      value = parseInt(value, 10);
+      if (isNaN(value)) return 0;
+      return Math.max(0, Math.min(100, value));
     }
 
-    function showNoodleState(s) {
-      for (var i = 0; i < 3; i++) {
-        document.getElementById('noodle-s' + i).style.display = (i === s) ? '' : 'none';
+    function formatCodexQuotaTime(timestamp) {
+      var date = new Date(timestamp);
+      return (date.getMonth() + 1) + '月' + date.getDate() + '日 ' + pad(date.getHours()) + ':' + pad(date.getMinutes());
+    }
+
+    function formatCodexResetTime(timestamp) {
+      var date = new Date(timestamp);
+      var days = ['周日','周一','周二','周三','周四','周五','周六'];
+      return (date.getMonth() + 1) + '月' + date.getDate() + '日 ' + days[date.getDay()] + ' ' + pad(date.getHours()) + ':' + pad(date.getMinutes());
+    }
+
+    function codexDateInputValue(date) {
+      return date.getFullYear() + '-' + pad(date.getMonth() + 1) + '-' + pad(date.getDate());
+    }
+
+    function codexTimeInputValue(date) {
+      return pad(date.getHours()) + ':' + pad(date.getMinutes());
+    }
+
+    function setCodexQuotaDraft(value) {
+      codexQuotaDraft = clampCodexQuota(value);
+      document.getElementById('codex-quota-draft').textContent = codexQuotaDraft;
+    }
+
+    function changeCodexQuota(delta) {
+      setCodexQuotaDraft(codexQuotaDraft + delta);
+    }
+
+    function renderCodexCountdown() {
+      var resetTime = document.getElementById('codex-reset-time');
+      var countdown = document.getElementById('codex-reset-countdown');
+      if (!codexQuotaState || !codexQuotaState.resetAt) {
+        resetTime.textContent = '--';
+        countdown.textContent = '--';
+        return;
       }
-      noodleState = s;
-    }
-
-    function updateCountdown() {
-      document.getElementById('noodle-countdown').textContent =
-        '泡面焖煮中...剩余 ' + pad(Math.floor(noodleSecsLeft / 60)) + ':' + pad(noodleSecsLeft % 60);
-    }
-
-    function noodleTick() {
-      noodleSecsLeft--;
-      updateCountdown();
-      if (noodleSecsLeft <= 0) { finishNoodle(); }
-    }
-
-    function startNoodle() {
-      noodleSecsLeft = noodleMins * 60;
-      showNoodleState(1);
-      updateCountdown();
-      noodleTimer = setInterval(noodleTick, 1000);
-    }
-
-    function cancelNoodle() {
-      if (noodleTimer) { clearInterval(noodleTimer); noodleTimer = null; }
-      showNoodleState(0);
-    }
-
-    function finishNoodle() {
-      if (noodleTimer) { clearInterval(noodleTimer); noodleTimer = null; }
-      showNoodleState(2);
-    }
-
-    function resetNoodle() { showNoodleState(0); }
-
-    function pauseNoodleTimer() {
-      if (noodleTimer) { clearInterval(noodleTimer); noodleTimer = null; }
-    }
-
-    function resumeNoodleTimer() {
-      if (noodleState === 1 && !noodleTimer) {
-        noodleTimer = setInterval(noodleTick, 1000);
+      resetTime.textContent = formatCodexResetTime(codexQuotaState.resetAt);
+      var diff = codexQuotaState.resetAt - Date.now();
+      if (diff <= 0) {
+        countdown.textContent = '已到重置时间';
+        return;
       }
+      var totalMins = Math.floor(diff / 60000);
+      var days = Math.floor(totalMins / 1440);
+      var hours = Math.floor((totalMins % 1440) / 60);
+      var mins = totalMins % 60;
+      countdown.textContent = days > 0 ? days + '天 ' + hours + '小时' : hours + '小时 ' + mins + '分钟';
     }
+
+    function renderCodexQuota(state) {
+      var hasRecord = state && typeof state.remaining === 'number' && state.resetAt;
+      var remaining = hasRecord ? clampCodexQuota(state.remaining) : 0;
+      codexQuotaState = hasRecord ? state : null;
+      document.getElementById('codex-quota-value').textContent = hasRecord ? remaining : '--';
+      document.getElementById('codex-quota-fill').style.width = remaining + '%';
+      document.getElementById('codex-quota-status').textContent = hasRecord ? formatCodexQuotaTime(state.updatedAt) + ' 更新' : '尚未记录';
+      if (hasRecord) setCodexQuotaDraft(remaining);
+      renderCodexCountdown();
+    }
+
+    function loadCodexQuota() {
+      var state = null;
+      try {
+        state = JSON.parse(localStorage.getItem(CODEX_QUOTA_KEY) || 'null');
+      } catch (e) {}
+      if (!state || typeof state.remaining !== 'number' || !state.updatedAt || !state.resetAt) state = null;
+      renderCodexQuota(state);
+    }
+
+    function openCodexQuotaEditor() {
+      var resetDate = codexQuotaState && codexQuotaState.resetAt ? new Date(codexQuotaState.resetAt) : new Date(Date.now() + 7 * 86400000);
+      if (codexQuotaState) setCodexQuotaDraft(codexQuotaState.remaining);
+      document.getElementById('codex-reset-date-input').value = codexDateInputValue(resetDate);
+      document.getElementById('codex-reset-time-input').value = codexTimeInputValue(resetDate);
+      document.getElementById('codex-quota-error').textContent = '';
+      forceEinkRefresh(function() { document.getElementById('codex-quota-editor').style.display = ''; });
+    }
+
+    function closeCodexQuotaEditor() {
+      forceEinkRefresh(function() { document.getElementById('codex-quota-editor').style.display = 'none'; });
+    }
+
+    function saveCodexQuota() {
+      var dateValue = document.getElementById('codex-reset-date-input').value;
+      var timeValue = document.getElementById('codex-reset-time-input').value;
+      var resetAt = new Date(dateValue + 'T' + timeValue).getTime();
+      if (!dateValue || !timeValue || isNaN(resetAt)) {
+        document.getElementById('codex-quota-error').textContent = '请填写完整的重置日期和时间';
+        return;
+      }
+      var state = { remaining: codexQuotaDraft, resetAt: resetAt, updatedAt: Date.now() };
+      try { localStorage.setItem(CODEX_QUOTA_KEY, JSON.stringify(state)); } catch (e) {}
+      document.getElementById('codex-quota-editor').style.display = 'none';
+      forceEinkRefresh(function() { renderCodexQuota(state); });
+    }
+
+    loadCodexQuota();
+    setInterval(renderCodexCountdown, 60000);
 
     /* ── Pomodoro Timer ─────────────────────────────────── */
     var pomo = {
@@ -2454,7 +2538,6 @@
     function enterDailyMode() {
       if (!dailyState.active) { dailyState.previousTab = currentTab; }
       dailyState.active = true;
-      if (currentTab === 2) { pauseNoodleTimer(); }
       if (currentTab === 1) { pausePomoTimer(); }
 
       var navIcons = document.querySelectorAll('#bottom-nav .nav-icon');
@@ -2504,7 +2587,6 @@
         document.getElementById('bottom-nav').style.display = '';
         document.getElementById('nav-bar').style.left = NAV_LEFT[prevTab] + 'px';
         currentTab = prevTab;
-        if (prevTab === 2 && noodleState === 1) { resumeNoodleTimer(); }
       });
     }
 
