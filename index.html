@@ -674,7 +674,7 @@
       -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center;
       padding: 0 24px;
     }
-    .ob-s1-illus img { width: 564px; height: 564px; max-width: 100%; max-height: 100%; }
+    .ob-s1-illus img { width: auto; height: auto; max-width: 100%; max-height: 100%; object-fit: contain; }
     .ob-s1-title { -webkit-flex-shrink: 0; flex-shrink: 0; text-align: center; padding: 0 56px 8px; }
     .ob-s1-t1 { font-size: 76px; font-weight: 800; color: #000; line-height: 0.95; letter-spacing: -1px; }
     .ob-s1-t2 {
@@ -929,7 +929,7 @@
     <!-- Screen 1: Brand Reveal (original layout) -->
     <div id="ob-s1" class="ob-screen">
       <div class="ob-s1-illus" style="padding-top:16px;">
-        <img src="img/kindle_noodle_2_v2.png" alt="Kindle Noodle">
+        <img src="img/reading-cover.jpg" alt="文盲的睡前读物">
       </div>
       <div style="-webkit-flex-shrink:0;flex-shrink:0;text-align:center;padding:0 48px;">
         <div style="font-size:64px;font-weight:900;color:#000;letter-spacing:-1px;line-height:1.05;">Kindle Noodle</div>
@@ -1124,7 +1124,7 @@
           </div>
           <div class="duo-card">
             <div class="duo-main">
-              <div class="duo-avatar"><img src="img/duo-bird.webp" alt="绿色学习鸟" onerror="this.onerror=null;this.src='img/duo-bird.png';"></div>
+              <div class="duo-avatar"><img src="img/duo-bird-static.png" alt="绿色学习鸟" onerror="this.onerror=null;this.src='img/duo-bird.png';"></div>
               <div class="duo-summary">
                 <div class="duo-name">日韩语冲 2</div>
                 <div class="duo-streak"><span class="duo-streak-number" id="duo-streak">0</span><span class="duo-streak-unit">天</span></div>
@@ -2651,9 +2651,11 @@
         var h = illus.offsetHeight;
         var w = illus.offsetWidth;
         if (h <= 0 || w <= 0) return;
-        var size = Math.min(h, w, 564);
-        img.style.width = size + 'px';
-        img.style.height = size + 'px';
+        var naturalW = img.naturalWidth || 1170;
+        var naturalH = img.naturalHeight || 1557;
+        var scale = Math.min(w / naturalW, h / naturalH, 1);
+        img.style.width = Math.floor(naturalW * scale) + 'px';
+        img.style.height = Math.floor(naturalH * scale) + 'px';
       }
       function applyAll() {
         applyScale();
