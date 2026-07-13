@@ -316,7 +316,7 @@
       display: -webkit-box; display: -webkit-flex; display: flex;
       -webkit-box-align: center; -webkit-align-items: center; align-items: center;
     }
-    .quota-mark { width: 44px; height: 44px; object-fit: contain; margin-right: 16px; }
+    .quota-mark { width: 48px; height: 48px; margin-right: 16px; -webkit-flex-shrink: 0; flex-shrink: 0; }
     .quota-kicker { font-size: 18px; font-weight: bold; letter-spacing: 0; color: #444; }
     .quota-title { font-size: 44px; font-weight: bold; line-height: 1.08; color: #000; margin-top: 2px; }
     .quota-status { font-size: 20px; color: #555; text-align: right; }
@@ -1311,7 +1311,11 @@
       <div class="quota-page">
         <div class="quota-header">
           <div class="quota-brand">
-            <img class="quota-mark" src="img/codex-mark.png" alt="Codex">
+            <svg class="quota-mark" viewBox="0 0 48 48" fill="none" role="img" aria-label="Codex Weekly">
+              <path d="M36.5 12.5A17 17 0 1 0 40 30" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+              <path d="M39.5 21.5L40.5 30.5L31.5 29" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M19 17L12 24L19 31M29 17L36 24L29 31M27 14L21 34" stroke="#000" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
             <div>
               <div class="quota-kicker">CODEX USAGE</div>
               <div class="quota-title">Weekly 用量</div>
