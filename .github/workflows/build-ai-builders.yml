@@ -1,10 +1,18 @@
 name: Build AI Builders Digest
 
 on:
+  schedule:
+    # GitHub Actions uses UTC. 00:15 UTC = 08:15 Asia/Shanghai.
+    - cron: '15 0 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+  models: read
+
+concurrency:
+  group: ai-builders-daily
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -19,6 +27,11 @@ jobs:
         with:
           node-version: 22
 
+      - name: Generate AI Builders digest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node ai-builder/scripts/generate-kindle-digest.js
+
       - name: Build Kindle daily data
         run: node ai-builder/scripts/build-kindle-daily.js
 
@@ -26,6 +39,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
+          git add ai-builder/kindle-digest.json data/
           git diff --cached --quiet && echo "No changes" || \
             (git commit -m "chore: update AI Builders digest" && git push)
