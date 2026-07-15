@@ -1310,8 +1310,8 @@
 
   <!-- Shared Nav Bar -->
   <div id="bottom-nav">
-    <!-- Left card: 3 main icons -->
-    <div class="nav-card nav-card-flex nav-card-main nav-card-gap">
+    <!-- Single card: all 4 icons -->
+    <div class="nav-card nav-card-flex nav-card-main">
       <div class="nav-active-bar" id="nav-bar"></div>
       <div class="nav-icons-row">
 
@@ -1336,11 +1336,7 @@
           </svg>
         </div>
 
-      </div>
-    </div>
-    <!-- Right card: news icon -->
-    <div class="nav-card nav-card-sm">
-      <div class="nav-icon" onclick="switchTab(3)">
+        <div class="nav-icon" onclick="switchTab(3)">
         <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_2397_685)">
             <path d="M5.5 8V43C5.5 45.7614 7.73858 48 10.5 48H40.5H45.5C48.2614 48 50.5 45.7614 50.5 43V18H40.5" stroke="black" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1350,6 +1346,7 @@
           </g>
           <defs><clipPath id="clip0_2397_685"><rect width="56" height="56" fill="white"/></clipPath></defs>
         </svg>
+        </div>
       </div>
     </div>
   </div>
@@ -1359,7 +1356,7 @@
 
     /* ── Tab Switching ──────────────────────────────────── */
     var currentTab = 0;
-    var NAV_LEFT = [49, 262, 475];
+    var NAV_LEFT = [49, 235, 421, 607];
 
     var DAILY_READ_KEY = 'ai_daily_read_';
 
