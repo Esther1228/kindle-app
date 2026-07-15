@@ -298,108 +298,6 @@
     .csp-btn-cancel { border: 1px solid #000; background: #fff; color: #000; }
     .csp-btn-confirm { margin-left: 16px; background: #030303; color: #fff; border: none; }
 
-    /* ── Codex Weekly Usage ────────────────────────────── */
-    .quota-page {
-      -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; min-height: 0;
-      display: -webkit-box; display: -webkit-flex; display: flex;
-      -webkit-box-orient: vertical; -webkit-flex-direction: column; flex-direction: column;
-      position: relative;
-    }
-    .quota-header {
-      -webkit-flex-shrink: 0; flex-shrink: 0;
-      padding: 32px 56px 26px; border-bottom: 3px solid #000;
-      display: -webkit-box; display: -webkit-flex; display: flex;
-      -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between;
-      -webkit-box-align: center; -webkit-align-items: center; align-items: center;
-    }
-    .quota-brand {
-      display: -webkit-box; display: -webkit-flex; display: flex;
-      -webkit-box-align: center; -webkit-align-items: center; align-items: center;
-    }
-    .quota-mark { width: 48px; height: 48px; margin-right: 16px; -webkit-flex-shrink: 0; flex-shrink: 0; }
-    .quota-kicker { font-size: 18px; font-weight: bold; letter-spacing: 0; color: #444; }
-    .quota-title { font-size: 44px; font-weight: bold; line-height: 1.08; color: #000; margin-top: 2px; }
-    .quota-status { font-size: 20px; color: #555; text-align: right; }
-    .quota-meter {
-      -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; min-height: 0;
-      padding: 34px 56px 30px;
-      display: -webkit-box; display: -webkit-flex; display: flex;
-      -webkit-box-orient: vertical; -webkit-flex-direction: column; flex-direction: column;
-      -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center;
-    }
-    .quota-meter-label { font-size: 24px; color: #555; text-align: center; }
-    .quota-value { text-align: center; color: #000; line-height: 1; margin: 8px 0 26px; }
-    .quota-value-number { font-size: 150px; font-weight: bold; }
-    .quota-value-unit { font-size: 42px; font-weight: bold; margin-left: 8px; }
-    .quota-track { width: 100%; height: 34px; border: 3px solid #000; background: #fff; overflow: hidden; }
-    .quota-fill { width: 0; height: 100%; background: #000; }
-    .quota-reset-band {
-      -webkit-flex-shrink: 0; flex-shrink: 0;
-      border-top: 3px solid #000; border-bottom: 3px solid #000;
-      display: -webkit-box; display: -webkit-flex; display: flex;
-      padding: 24px 56px;
-    }
-    .quota-reset-item { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; min-width: 0; }
-    .quota-reset-item + .quota-reset-item { border-left: 2px solid #000; padding-left: 34px; margin-left: 34px; }
-    .quota-reset-label { font-size: 20px; color: #555; margin-bottom: 7px; }
-    .quota-reset-value { font-size: 29px; font-weight: bold; line-height: 1.2; white-space: nowrap; }
-    .quota-controls { -webkit-flex-shrink: 0; flex-shrink: 0; padding: 22px 56px 28px; }
-    .quota-update {
-      width: 100%; height: 68px; border: 3px solid #000; background: #000; color: #fff;
-      font-size: 29px; font-weight: bold; cursor: pointer;
-    }
-    .quota-editor {
-      position: absolute; z-index: 20; top: 0; right: 0; bottom: 0; left: 0;
-      background: #fff; display: -webkit-box; display: -webkit-flex; display: flex;
-      -webkit-box-orient: vertical; -webkit-flex-direction: column; flex-direction: column;
-    }
-    .quota-editor-header {
-      height: 104px; padding: 0 56px; border-bottom: 3px solid #000;
-      display: -webkit-box; display: -webkit-flex; display: flex;
-      -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between;
-      -webkit-box-align: center; -webkit-align-items: center; align-items: center;
-      -webkit-flex-shrink: 0; flex-shrink: 0;
-    }
-    .quota-editor-title { font-size: 38px; font-weight: bold; }
-    .quota-editor-close { width: 60px; height: 60px; border: 0; background: #fff; font-size: 48px; line-height: 1; cursor: pointer; }
-    .quota-editor-body { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; min-height: 0; padding: 34px 56px 24px; }
-    .quota-field-label { font-size: 22px; font-weight: bold; margin-bottom: 12px; }
-    .quota-stepper { height: 72px; display: -webkit-box; display: -webkit-flex; display: flex; border: 3px solid #000; }
-    .quota-step-btn {
-      width: 118px; border: 0; background: #fff; color: #000;
-      font-size: 42px; font-weight: bold; line-height: 1; cursor: pointer;
-    }
-    .quota-step-btn:first-child { border-right: 3px solid #000; }
-    .quota-step-btn:last-child { border-left: 3px solid #000; }
-    .quota-draft {
-      -webkit-box-flex: 1; -webkit-flex: 1; flex: 1;
-      display: -webkit-box; display: -webkit-flex; display: flex;
-      -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center;
-      -webkit-box-align: center; -webkit-align-items: center; align-items: center;
-      font-size: 34px; font-weight: bold;
-    }
-    .quota-presets { display: -webkit-box; display: -webkit-flex; display: flex; margin-top: 14px; }
-    .quota-preset {
-      -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; height: 54px;
-      border: 2px solid #000; border-right: 0; background: #fff; color: #000;
-      font-size: 24px; font-weight: bold; cursor: pointer;
-    }
-    .quota-preset:last-child { border-right: 2px solid #000; }
-    .quota-reset-fields { display: -webkit-box; display: -webkit-flex; display: flex; margin-top: 30px; }
-    .quota-reset-field { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; min-width: 0; }
-    .quota-reset-field + .quota-reset-field { margin-left: 20px; }
-    .quota-input {
-      width: 100%; height: 68px; border: 3px solid #000; background: #fff; color: #000;
-      padding: 0 16px; font-size: 24px; font-weight: bold; box-sizing: border-box;
-    }
-    .quota-editor-actions {
-      -webkit-flex-shrink: 0; flex-shrink: 0; padding: 0 56px 30px;
-      display: -webkit-box; display: -webkit-flex; display: flex;
-    }
-    .quota-editor-btn { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; height: 70px; border: 3px solid #000; font-size: 28px; font-weight: bold; cursor: pointer; }
-    .quota-editor-cancel { background: #fff; color: #000; margin-right: 18px; }
-    .quota-editor-save { background: #000; color: #fff; }
-    .quota-error { height: 30px; margin-top: 12px; font-size: 20px; font-weight: bold; color: #000; }
     }
 
     /* ── Reading Page ──────────────────────────────────── */
@@ -717,7 +615,7 @@
     }
     .ob-t2-dash { display: inline-block; width: 56px; height: 2px; background: #000; margin: 0 18px; }
     .ob-s1-sub { margin-top: 18px; font-size: 18px; color: #666666; font-style: italic; letter-spacing: 1px; }
-    /* ── Screen 2 · Five Roles (2×3 outline grid) ── */
+    /* ── Screen 2 · Four Roles ───────────────────── */
     .ob-s2-head { -webkit-flex-shrink: 0; flex-shrink: 0; padding: 36px 56px 12px; position: relative; }
     .ob-s2-main { font-size: 60px; font-weight: 800; color: #000; letter-spacing: -1px; line-height: 1.02; }
     .ob-s2-sub { margin: 10px 0 0; font-size: 24px; color: #666666; font-weight: 400; line-height: 1.4; }
@@ -982,7 +880,7 @@
       </div>
     </div>
 
-    <!-- Screen 2: Five Roles (2×3 outline grid, brand emblem centre) -->
+    <!-- Screen 2: Four Roles -->
     <div id="ob-s2" class="ob-screen" style="display:none">
 
       <div class="ob-s2-head">
@@ -1010,32 +908,23 @@
           </div>
           <div class="ob-s2-row-num">02</div>
         </div>
-        <!-- 03 盖泡面倒计时 -->
-        <div class="ob-s2-row">
-          <div class="ob-s2-row-icon"><svg width="60" height="60" viewBox="0 0 56 56" fill="none"><rect x="6" y="13" width="39" height="30" rx="3" stroke="#111" stroke-width="4.67"/><path d="M45 23H51V33H45" stroke="#111" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/><path d="M25 18L16 31H25L21 39L35 25H26L30 18H25Z" fill="#111"/></svg></div>
-          <div class="ob-s2-row-text">
-            <div class="ob-s2-row-name">CODEX 额度余量</div>
-            <div class="ob-s2-row-desc">Weekly 剩余量、重置时间与倒计时</div>
-          </div>
-          <div class="ob-s2-row-num">03</div>
-        </div>
-        <!-- 04 微信读书网页版 -->
+        <!-- 03 微信读书网页版 -->
         <div class="ob-s2-row">
           <div class="ob-s2-row-icon"><svg width="60" height="60" viewBox="0 0 56 56" fill="none"><path d="M46.6666 28V39.6667C46.6666 44.0664 46.6666 46.2663 45.2998 47.6332C43.933 49 41.7331 49 37.3333 49H15.1666C11.945 49 9.33331 46.3883 9.33331 43.1667M46.6666 28V16.3333C46.6666 11.9336 46.6666 9.73367 45.2998 8.36684C43.933 7 41.7331 7 37.3333 7H18.6666C14.2669 7 12.067 7 10.7001 8.36684C9.33331 9.73367 9.33331 11.9336 9.33331 16.3333V43.1667M46.6666 28C46.6666 32.3998 46.6666 34.5997 45.2998 35.9665C43.933 37.3333 41.7331 37.3333 37.3333 37.3333H15.1666C11.945 37.3333 9.33331 39.945 9.33331 43.1667" stroke="#111" stroke-width="4.66667"/><path d="M21 18.6666L35 18.6666" stroke="#111" stroke-width="4.66667" stroke-linecap="round"/></svg></div>
           <div class="ob-s2-row-text">
             <div class="ob-s2-row-name">微信读书网页版</div>
             <div class="ob-s2-row-desc">想读书？这其实才是我的正经主业</div>
           </div>
-          <div class="ob-s2-row-num">04</div>
+          <div class="ob-s2-row-num">03</div>
         </div>
-        <!-- 05 AI Builders 日报 -->
+        <!-- 04 AI Builders 日报 -->
         <div class="ob-s2-row">
           <div class="ob-s2-row-icon"><svg width="60" height="60" viewBox="0 0 56 56" fill="none"><path d="M5.5 8V43C5.5 45.7614 7.73858 48 10.5 48H40.5H45.5C48.2614 48 50.5 45.7614 50.5 43V18H40.5" stroke="#111" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.5 8H40.5V43C40.5 45.7614 42.7386 48 45.5 48" stroke="#111" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/><path d="M30.5 18L15.5 18" stroke="#111" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/><path d="M30.5 28L20.5 28" stroke="#111" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
           <div class="ob-s2-row-text">
             <div class="ob-s2-row-name">AI Builders · 每天 8:15</div>
             <div class="ob-s2-row-desc">只追踪真正做产品、模型与研究的人</div>
           </div>
-          <div class="ob-s2-row-num">05</div>
+          <div class="ob-s2-row-num">04</div>
         </div>
       </div>
 
@@ -1306,81 +1195,8 @@
 
     </div>
 
-    <!-- Page 2: Codex Quota -->
+    <!-- Page 2: Reading Redirect -->
     <div id="page-2" class="page" style="display:none">
-      <div class="quota-page">
-        <div class="quota-header">
-          <div class="quota-brand">
-            <svg class="quota-mark" viewBox="0 0 48 48" fill="none" role="img" aria-label="Codex Weekly">
-              <path d="M36.5 12.5A17 17 0 1 0 40 30" stroke="#000" stroke-width="4" stroke-linecap="round"/>
-              <path d="M39.5 21.5L40.5 30.5L31.5 29" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M19 17L12 24L19 31M29 17L36 24L29 31M27 14L21 34" stroke="#000" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            <div>
-              <div class="quota-kicker">CODEX USAGE</div>
-              <div class="quota-title">Weekly 用量</div>
-            </div>
-          </div>
-          <div class="quota-status" id="codex-quota-status">尚未记录</div>
-        </div>
-        <div class="quota-meter">
-          <div class="quota-meter-label">WEEKLY 剩余</div>
-          <div class="quota-value"><span class="quota-value-number" id="codex-quota-value">--</span><span class="quota-value-unit">%</span></div>
-          <div class="quota-track"><div class="quota-fill" id="codex-quota-fill"></div></div>
-        </div>
-        <div class="quota-reset-band">
-          <div class="quota-reset-item">
-            <div class="quota-reset-label">重置时间</div>
-            <div class="quota-reset-value" id="codex-reset-time">--</div>
-          </div>
-          <div class="quota-reset-item">
-            <div class="quota-reset-label">距离重置</div>
-            <div class="quota-reset-value" id="codex-reset-countdown">--</div>
-          </div>
-        </div>
-        <div class="quota-controls">
-          <button class="quota-update" type="button" onclick="openCodexQuotaEditor()">更新 Weekly</button>
-        </div>
-        <div class="quota-editor" id="codex-quota-editor" style="display:none">
-          <div class="quota-editor-header">
-            <div class="quota-editor-title">更新 Weekly 用量</div>
-            <button class="quota-editor-close" type="button" onclick="closeCodexQuotaEditor()" aria-label="关闭">&times;</button>
-          </div>
-          <div class="quota-editor-body">
-            <div class="quota-field-label">剩余百分比</div>
-          <div class="quota-stepper">
-            <button class="quota-step-btn" type="button" onclick="changeCodexQuota(-5)" aria-label="减少 5%">&minus;</button>
-            <div class="quota-draft"><span id="codex-quota-draft">50</span>%</div>
-            <button class="quota-step-btn" type="button" onclick="changeCodexQuota(5)" aria-label="增加 5%">+</button>
-          </div>
-          <div class="quota-presets">
-            <button class="quota-preset" type="button" onclick="setCodexQuotaDraft(25)">25%</button>
-            <button class="quota-preset" type="button" onclick="setCodexQuotaDraft(50)">50%</button>
-            <button class="quota-preset" type="button" onclick="setCodexQuotaDraft(75)">75%</button>
-            <button class="quota-preset" type="button" onclick="setCodexQuotaDraft(100)">100%</button>
-          </div>
-            <div class="quota-reset-fields">
-              <div class="quota-reset-field">
-                <div class="quota-field-label">重置日期</div>
-                <input class="quota-input" id="codex-reset-date-input" type="date" aria-label="重置日期">
-              </div>
-              <div class="quota-reset-field">
-                <div class="quota-field-label">重置时间</div>
-                <input class="quota-input" id="codex-reset-time-input" type="time" aria-label="重置时间">
-              </div>
-            </div>
-            <div class="quota-error" id="codex-quota-error"></div>
-          </div>
-          <div class="quota-editor-actions">
-            <button class="quota-editor-btn quota-editor-cancel" type="button" onclick="closeCodexQuotaEditor()">取消</button>
-            <button class="quota-editor-btn quota-editor-save" type="button" onclick="saveCodexQuota()">保存</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Page 3: Reading Redirect -->
-    <div id="page-3" class="page" style="display:none">
       <div class="reading-page">
         <div class="reading-header">
           <div class="reading-header-text">
@@ -1424,8 +1240,8 @@
       </div>
     </div>
 
-    <!-- Page 4: AI Builders Digest -->
-    <div id="page-4" class="page" style="display:none">
+    <!-- Page 3: AI Builders Digest -->
+    <div id="page-3" class="page" style="display:none">
       <div class="daily-page" id="daily-content">
         <div class="daily-status">点击下方图标进入日报</div>
       </div>
@@ -1494,7 +1310,7 @@
 
   <!-- Shared Nav Bar -->
   <div id="bottom-nav">
-    <!-- Left card: 4 main icons -->
+    <!-- Left card: 3 main icons -->
     <div class="nav-card nav-card-flex nav-card-main nav-card-gap">
       <div class="nav-active-bar" id="nav-bar"></div>
       <div class="nav-icons-row">
@@ -1515,14 +1331,6 @@
 
         <div class="nav-icon" onclick="switchTab(2)">
           <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="6" y="13" width="39" height="30" rx="3" stroke="black" stroke-width="4.67"/>
-            <path d="M45 23H51V33H45" stroke="black" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M25 18L16 31H25L21 39L35 25H26L30 18H25Z" fill="black"/>
-          </svg>
-        </div>
-
-        <div class="nav-icon" onclick="switchTab(3)">
-          <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M46.6666 28V39.6667C46.6666 44.0664 46.6666 46.2663 45.2998 47.6332C43.933 49 41.7331 49 37.3333 49H15.1666C11.945 49 9.33331 46.3883 9.33331 43.1667M46.6666 28V16.3333C46.6666 11.9336 46.6666 9.73367 45.2998 8.36684C43.933 7 41.7331 7 37.3333 7H18.6666C14.2669 7 12.067 7 10.7001 8.36684C9.33331 9.73367 9.33331 11.9336 9.33331 16.3333V43.1667M46.6666 28C46.6666 32.3998 46.6666 34.5997 45.2998 35.9665C43.933 37.3333 41.7331 37.3333 37.3333 37.3333H15.1666C11.945 37.3333 9.33331 39.945 9.33331 43.1667" stroke="black" stroke-width="4.66667"/>
             <path d="M21 18.6666L35 18.6666" stroke="black" stroke-width="4.66667" stroke-linecap="round"/>
           </svg>
@@ -1532,7 +1340,7 @@
     </div>
     <!-- Right card: news icon -->
     <div class="nav-card nav-card-sm">
-      <div class="nav-icon" onclick="switchTab(4)">
+      <div class="nav-icon" onclick="switchTab(3)">
         <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_2397_685)">
             <path d="M5.5 8V43C5.5 45.7614 7.73858 48 10.5 48H40.5H45.5C48.2614 48 50.5 45.7614 50.5 43V18H40.5" stroke="black" stroke-width="4.67" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1551,7 +1359,7 @@
 
     /* ── Tab Switching ──────────────────────────────────── */
     var currentTab = 0;
-    var NAV_LEFT = [49, 191, 333, 475];
+    var NAV_LEFT = [49, 262, 475];
 
     var DAILY_READ_KEY = 'ai_daily_read_';
 
@@ -1587,14 +1395,14 @@
     }
 
     function switchTab(tab) {
-      if (tab === 4) { enterDailyMode(); return; }
+      if (tab === 3) { enterDailyMode(); return; }
       if (dailyState.active) {
         dailyState.active = false;
         dailyState.currentPage = 0;
       }
       if (currentTab === 1 && tab !== 1) { pausePomoTimer(); }
       forceEinkRefresh(function() {
-        for (var i = 0; i <= 4; i++) {
+        for (var i = 0; i <= 3; i++) {
           document.getElementById('page-' + i).style.display = (i === tab) ? '' : 'none';
         }
         document.getElementById('daily-nav').style.display = 'none';
@@ -1808,116 +1616,6 @@
     }
 
     renderDuoWidget();
-
-    /* ── Codex Weekly Usage ─────────────────────────────── */
-    var CODEX_QUOTA_KEY = 'codex_quota_state_v1';
-    var codexQuotaDraft = 50;
-    var codexQuotaState = null;
-
-    function clampCodexQuota(value) {
-      value = parseInt(value, 10);
-      if (isNaN(value)) return 0;
-      return Math.max(0, Math.min(100, value));
-    }
-
-    function formatCodexQuotaTime(timestamp) {
-      var date = new Date(timestamp);
-      return (date.getMonth() + 1) + '月' + date.getDate() + '日 ' + pad(date.getHours()) + ':' + pad(date.getMinutes());
-    }
-
-    function formatCodexResetTime(timestamp) {
-      var date = new Date(timestamp);
-      var days = ['周日','周一','周二','周三','周四','周五','周六'];
-      return (date.getMonth() + 1) + '月' + date.getDate() + '日 ' + days[date.getDay()] + ' ' + pad(date.getHours()) + ':' + pad(date.getMinutes());
-    }
-
-    function codexDateInputValue(date) {
-      return date.getFullYear() + '-' + pad(date.getMonth() + 1) + '-' + pad(date.getDate());
-    }
-
-    function codexTimeInputValue(date) {
-      return pad(date.getHours()) + ':' + pad(date.getMinutes());
-    }
-
-    function setCodexQuotaDraft(value) {
-      codexQuotaDraft = clampCodexQuota(value);
-      document.getElementById('codex-quota-draft').textContent = codexQuotaDraft;
-    }
-
-    function changeCodexQuota(delta) {
-      setCodexQuotaDraft(codexQuotaDraft + delta);
-    }
-
-    function renderCodexCountdown() {
-      var resetTime = document.getElementById('codex-reset-time');
-      var countdown = document.getElementById('codex-reset-countdown');
-      if (!codexQuotaState || !codexQuotaState.resetAt) {
-        resetTime.textContent = '--';
-        countdown.textContent = '--';
-        return;
-      }
-      resetTime.textContent = formatCodexResetTime(codexQuotaState.resetAt);
-      var diff = codexQuotaState.resetAt - Date.now();
-      if (diff <= 0) {
-        countdown.textContent = '已到重置时间';
-        return;
-      }
-      var totalMins = Math.floor(diff / 60000);
-      var days = Math.floor(totalMins / 1440);
-      var hours = Math.floor((totalMins % 1440) / 60);
-      var mins = totalMins % 60;
-      countdown.textContent = days > 0 ? days + '天 ' + hours + '小时' : hours + '小时 ' + mins + '分钟';
-    }
-
-    function renderCodexQuota(state) {
-      var hasRecord = state && typeof state.remaining === 'number' && state.resetAt;
-      var remaining = hasRecord ? clampCodexQuota(state.remaining) : 0;
-      codexQuotaState = hasRecord ? state : null;
-      document.getElementById('codex-quota-value').textContent = hasRecord ? remaining : '--';
-      document.getElementById('codex-quota-fill').style.width = remaining + '%';
-      document.getElementById('codex-quota-status').textContent = hasRecord ? formatCodexQuotaTime(state.updatedAt) + ' 更新' : '尚未记录';
-      if (hasRecord) setCodexQuotaDraft(remaining);
-      renderCodexCountdown();
-    }
-
-    function loadCodexQuota() {
-      var state = null;
-      try {
-        state = JSON.parse(localStorage.getItem(CODEX_QUOTA_KEY) || 'null');
-      } catch (e) {}
-      if (!state || typeof state.remaining !== 'number' || !state.updatedAt || !state.resetAt) state = null;
-      renderCodexQuota(state);
-    }
-
-    function openCodexQuotaEditor() {
-      var resetDate = codexQuotaState && codexQuotaState.resetAt ? new Date(codexQuotaState.resetAt) : new Date(Date.now() + 7 * 86400000);
-      if (codexQuotaState) setCodexQuotaDraft(codexQuotaState.remaining);
-      document.getElementById('codex-reset-date-input').value = codexDateInputValue(resetDate);
-      document.getElementById('codex-reset-time-input').value = codexTimeInputValue(resetDate);
-      document.getElementById('codex-quota-error').textContent = '';
-      forceEinkRefresh(function() { document.getElementById('codex-quota-editor').style.display = ''; });
-    }
-
-    function closeCodexQuotaEditor() {
-      forceEinkRefresh(function() { document.getElementById('codex-quota-editor').style.display = 'none'; });
-    }
-
-    function saveCodexQuota() {
-      var dateValue = document.getElementById('codex-reset-date-input').value;
-      var timeValue = document.getElementById('codex-reset-time-input').value;
-      var resetAt = new Date(dateValue + 'T' + timeValue).getTime();
-      if (!dateValue || !timeValue || isNaN(resetAt)) {
-        document.getElementById('codex-quota-error').textContent = '请填写完整的重置日期和时间';
-        return;
-      }
-      var state = { remaining: codexQuotaDraft, resetAt: resetAt, updatedAt: Date.now() };
-      try { localStorage.setItem(CODEX_QUOTA_KEY, JSON.stringify(state)); } catch (e) {}
-      document.getElementById('codex-quota-editor').style.display = 'none';
-      forceEinkRefresh(function() { renderCodexQuota(state); });
-    }
-
-    loadCodexQuota();
-    setInterval(renderCodexCountdown, 60000);
 
     /* ── Pomodoro Timer ─────────────────────────────────── */
     var pomo = {
@@ -2551,13 +2249,13 @@
       }
 
       forceEinkRefresh(function() {
-        for (var i = 0; i <= 3; i++) {
+        for (var i = 0; i <= 2; i++) {
           document.getElementById('page-' + i).style.display = 'none';
         }
-        document.getElementById('page-4').style.display = '';
+        document.getElementById('page-3').style.display = '';
         document.getElementById('bottom-nav').style.display = 'none';
         document.getElementById('daily-nav').style.display = '';
-        currentTab = 4;
+        currentTab = 3;
 
         var todayStr = (function() {
           var d = new Date();
@@ -2584,7 +2282,7 @@
       dailyState.active = false;
       var prevTab = dailyState.previousTab;
       forceEinkRefresh(function() {
-        for (var i = 0; i <= 4; i++) {
+        for (var i = 0; i <= 3; i++) {
           document.getElementById('page-' + i).style.display = (i === prevTab) ? '' : 'none';
         }
         document.getElementById('daily-nav').style.display = 'none';
