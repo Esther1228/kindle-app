@@ -2,6 +2,16 @@
   "count": 30,
   "items": [
     {
+      "date": "2026-07-16",
+      "attribution": {
+        "source": "Follow Builders",
+        "canonical": "https://github.com/zarazhangrui/follow-builders"
+      },
+      "generatedAt": "2026-07-16T03:37:49.609Z",
+      "leadTitle": "GPT-5.6 Sol 推理能力大幅提升，团队持续扩展支持能力",
+      "leadParagraph": "Sam Altman 表示 GPT-5.6 Sol 的推理能力增长惊人，推理团队付出巨大努力以满足需求，未来将继续大规模扩展，但可能会出现短期波动。"
+    },
+    {
       "date": "2026-07-15",
       "attribution": {
         "source": "Follow Builders",
@@ -289,16 +299,6 @@
       },
       "generatedAt": "2026-06-16T00:00:00.115Z",
       "leadTitle": "MiniMax 开源 M3 模型权重及 MSA 技术论文",
-      "leadParagraph": null
-    },
-    {
-      "date": "2026-06-15",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/daily/2026-06-15"
-      },
-      "generatedAt": "2026-06-15T00:00:00.725Z",
-      "leadTitle": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
       "leadParagraph": null
     }
   ]

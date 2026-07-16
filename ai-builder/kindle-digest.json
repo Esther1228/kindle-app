@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-15",
-  "generatedAt": "2026-07-15T14:50:23.810Z",
+  "date": "2026-07-16",
+  "generatedAt": "2026-07-16T03:37:49.609Z",
   "attribution": {
     "source": "Follow Builders",
     "canonical": "https://github.com/zarazhangrui/follow-builders"
@@ -10,16 +10,16 @@
       "label": "产品与模型",
       "items": [
         {
-          "title": "GPT-5.6 Sol 推理能力大幅提升，团队全力支持扩展",
-          "summary": "Sam Altman 表示 GPT-5.6 Sol 的推理增长表现惊人，推理团队付出了巨大努力以满足需求。尽管未来可能出现一些小问题，但他们将竭尽全力继续扩展能力。",
+          "title": "GPT-5.6 Sol 推理能力大幅提升，团队持续扩展支持能力",
+          "summary": "Sam Altman 表示 GPT-5.6 Sol 的推理能力增长惊人，推理团队付出巨大努力以满足需求，未来将继续大规模扩展，但可能会出现短期波动。",
           "sourceUrl": "https://x.com/sama/status/2077106587307798989",
           "sourceName": "X · Sam Altman (@sama)"
         },
         {
-          "title": "GPT-5.6 Sol 用户反馈激励计划启动，前1万名获赠100美元Codex积分",
-          "summary": "Thibault Sottiaux 推出活动，邀请用户分享对 GPT-5.6 Sol 的喜爱或切换原因，前1万名参与者将获得100美元 Codex 积分，鼓励更多用户体验和反馈。",
-          "sourceUrl": "https://x.com/thsottiaux/status/2077248807533003257",
-          "sourceName": "X · Thibault Sottiaux (@thsottiaux)"
+          "title": "Aaron Levie：代码的可测试性为智能代理带来新机遇",
+          "summary": "Aaron Levie 指出代码的可测试特性使其非常适合智能代理应用，未来企业工作流程将引入更多代理层，提升评估能力成为关键，推动 AI 在知识工作中的广泛采用。",
+          "sourceUrl": "https://x.com/levie/status/2077201458546745553",
+          "sourceName": "X · Aaron Levie (@levie)"
         }
       ]
     },
@@ -27,20 +27,14 @@
       "label": "Builder 观点",
       "items": [
         {
-          "title": "Aaron Levie：代码工作适合代理测试，企业需提升工作评估能力",
-          "summary": "Aaron Levie 指出代码工作因可快速测试，适合代理介入。大多数企业知识工作缺乏有效评估，未来提升评估能力将成为 AI 代理广泛应用的关键。",
-          "sourceUrl": "https://x.com/levie/status/2077201458546745553",
-          "sourceName": "X · Aaron Levie (@levie)"
-        },
-        {
-          "title": "旧金山个人 AI 工程师聚会，展示个人代理持久价值",
-          "summary": "Swyx 宣布本周四在新媒体实验室举办个人代理开发者聚会，回顾两年前演讲者被亚马逊硬件部门收购，强调个人 AI 代理的长期使用价值。",
+          "title": "旧金山个人 AI 工程师聚会，展示个人代理持久影响力",
+          "summary": "Swyx 分享旧金山个人 AI 工程师聚会消息，提及上次活动中演讲者被亚马逊硬件部门收购，且个人代理产品两年后仍被日常使用，体现个人 AI 的强大生命力。",
           "sourceUrl": "https://x.com/swyx/status/2077243443391422813",
           "sourceName": "X · Swyx (@swyx)"
         },
         {
-          "title": "Ryo Lu：从爱好到职业，机器也开始胜任核心创造工作",
-          "summary": "Ryo Lu 分享将兴趣变为职业的感受，既有满足也有压力。机器开始胜任写作、编码、设计等核心工作，改变了人类对独特创造力的认知。",
+          "title": "Ryo Lu：从爱好到职业，AI 正改变创作者的工作本质",
+          "summary": "Ryo Lu 反思将兴趣变为职业的喜悦与痛苦，指出机器不仅接管枯燥工作，也开始胜任写作、编码、设计等核心创造性任务，改变了人类对独特性的认知。",
           "sourceUrl": "https://x.com/ryolu_/status/2077162119506833627",
           "sourceName": "X · Ryo Lu (@ryolu_)"
         }
@@ -50,8 +44,8 @@
       "label": "深度播客",
       "items": [
         {
-          "title": "Anthropic 平台负责人谈构建开放生态与开发者工具",
-          "summary": "Anthropic 平台团队分享其开发者平台愿景，强调内部与外部平台统一，支持快速构建 AGI 产品。介绍了从基础消息 API 到高阶代理抽象的演进，致力于为开发者提供灵活强大的工具和标准。",
+          "title": "Anthropic 平台负责人详解构建开放生态系统的策略",
+          "summary": "Anthropic 平台负责人分享团队如何打造既支持内部快速迭代又服务外部开发者的统一平台，强调通过提供丰富原语和高阶抽象，助力开发者构建多样化 AI 应用，推动生态系统开放与创新。",
           "sourceUrl": "https://www.youtube.com/watch?v=vPnVTHYplrQ",
           "sourceName": "播客 · Training Data"
         }
