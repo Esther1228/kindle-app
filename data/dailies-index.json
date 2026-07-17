@@ -2,6 +2,16 @@
   "count": 30,
   "items": [
     {
+      "date": "2026-07-17",
+      "attribution": {
+        "source": "Follow Builders",
+        "canonical": "https://github.com/zarazhangrui/follow-builders"
+      },
+      "generatedAt": "2026-07-17T03:38:12.250Z",
+      "leadTitle": "Gemini Spark 推出四项新功能提升办公效率",
+      "leadParagraph": "Gemini Spark 正向更多 Ultra 订阅用户开放，新增支持打开和编辑 Google Docs、读取 Google Sheets 和 Slides 评论，提升 50% 以上速度，并支持多源并行处理，显著加快任务完成速度。"
+    },
+    {
       "date": "2026-07-16",
       "attribution": {
         "source": "Follow Builders",
@@ -289,16 +299,6 @@
       },
       "generatedAt": "2026-06-17T00:02:05.511Z",
       "leadTitle": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
-      "leadParagraph": null
-    },
-    {
-      "date": "2026-06-16",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/daily/2026-06-16"
-      },
-      "generatedAt": "2026-06-16T00:00:00.115Z",
-      "leadTitle": "MiniMax 开源 M3 模型权重及 MSA 技术论文",
       "leadParagraph": null
     }
   ]
