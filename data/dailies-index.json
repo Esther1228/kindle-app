@@ -2,6 +2,16 @@
   "count": 30,
   "items": [
     {
+      "date": "2026-07-18",
+      "attribution": {
+        "source": "Follow Builders",
+        "canonical": "https://github.com/zarazhangrui/follow-builders"
+      },
+      "generatedAt": "2026-07-18T03:32:32.774Z",
+      "leadTitle": "开源模型Kimi K3在Web工程基准测试中领先所有专有模型",
+      "leadParagraph": "Kimi K3模型在综合Web工程基准测试中表现最佳，超过Fable，首次实现开源模型领先所有专有模型的里程碑，最高成功率达92%，显示开源模型的突破潜力。"
+    },
+    {
       "date": "2026-07-17",
       "attribution": {
         "source": "Follow Builders",
@@ -289,16 +299,6 @@
       },
       "generatedAt": "2026-06-18T00:00:00.162Z",
       "leadTitle": "MolmoMotion：语言引导的3D运动预测模型",
-      "leadParagraph": null
-    },
-    {
-      "date": "2026-06-17",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/daily/2026-06-17"
-      },
-      "generatedAt": "2026-06-17T00:02:05.511Z",
-      "leadTitle": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
       "leadParagraph": null
     }
   ]
