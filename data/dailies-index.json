@@ -2,6 +2,16 @@
   "count": 30,
   "items": [
     {
+      "date": "2026-07-19",
+      "attribution": {
+        "source": "Follow Builders",
+        "canonical": "https://github.com/zarazhangrui/follow-builders"
+      },
+      "generatedAt": "2026-07-19T03:55:03.639Z",
+      "leadTitle": "Claude Fable 5将纳入所有Max和Team Premium订阅计划",
+      "leadParagraph": "Claude宣布自7月20日起，Claude Fable 5将包含在所有Max和Team Premium订阅计划中，使用限制为50%。Pro和Team Standard用户将继续通过使用积分访问Fable，并获得一次性100美元积分。此举旨在应对Fable需求难以预测的问题，逐步扩大订阅用户的访问权限。"
+    },
+    {
       "date": "2026-07-18",
       "attribution": {
         "source": "Follow Builders",
@@ -289,16 +299,6 @@
       },
       "generatedAt": "2026-06-19T00:00:03.961Z",
       "leadTitle": "首个统一科学大模型 LOGOS 正式开源",
-      "leadParagraph": null
-    },
-    {
-      "date": "2026-06-18",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/daily/2026-06-18"
-      },
-      "generatedAt": "2026-06-18T00:00:00.162Z",
-      "leadTitle": "MolmoMotion：语言引导的3D运动预测模型",
       "leadParagraph": null
     }
   ]

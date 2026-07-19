@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-18",
-  "generatedAt": "2026-07-18T03:32:32.774Z",
+  "date": "2026-07-19",
+  "generatedAt": "2026-07-19T03:55:03.639Z",
   "attribution": {
     "source": "Follow Builders",
     "canonical": "https://github.com/zarazhangrui/follow-builders"
@@ -10,22 +10,16 @@
       "label": "产品与模型",
       "items": [
         {
-          "title": "开源模型Kimi K3在Web工程基准测试中领先所有专有模型",
-          "summary": "Kimi K3模型在综合Web工程基准测试中表现最佳，超过Fable，首次实现开源模型领先所有专有模型的里程碑，最高成功率达92%，显示开源模型的突破潜力。",
-          "sourceUrl": "https://x.com/rauchg/status/2077900518404321759",
-          "sourceName": "X · Guillermo Rauch (@rauchg)"
+          "title": "Claude Fable 5将纳入所有Max和Team Premium订阅计划",
+          "summary": "Claude宣布自7月20日起，Claude Fable 5将包含在所有Max和Team Premium订阅计划中，使用限制为50%。Pro和Team Standard用户将继续通过使用积分访问Fable，并获得一次性100美元积分。此举旨在应对Fable需求难以预测的问题，逐步扩大订阅用户的访问权限。",
+          "sourceUrl": "https://x.com/claudeai/status/2078302417100394737",
+          "sourceName": "X · Claude (@claudeai)"
         },
         {
-          "title": "企业AI架构需重构以适应开源大模型的多样性",
-          "summary": "开源大模型如Kimi和GLM促使企业重新思考AI架构，建议构建快速评估体系、模型路由机制和模型无关的调用框架，以提升模型选择灵活性和系统切换效率。",
-          "sourceUrl": "https://x.com/realmadhuguru/status/2077885624607228018",
-          "sourceName": "X · Madhu Guru (@realmadhuguru)"
-        },
-        {
-          "title": "开源模型性能提升降低企业智能应用门槛",
-          "summary": "Kimi团队取得的开源模型性能突破显著降低了前沿智能的成本，推动企业部署更多AI工作流，促进多模型融合以优化客户任务完成，利好创业生态。",
-          "sourceUrl": "https://x.com/levie/status/2077857617859535112",
-          "sourceName": "X · Aaron Levie (@levie)"
+          "title": "Codex和ChatGPT Work付费用户使用限制重置",
+          "summary": "Thibault Sottiaux宣布对Codex和ChatGPT Work所有付费用户重置使用限制，感谢团队高速迭代和基础设施保障，支持用户在快速扩展的环境中获得更好体验。",
+          "sourceUrl": "https://x.com/thsottiaux/status/2078320950488297917",
+          "sourceName": "X · Thibault Sottiaux (@thsottiaux)"
         }
       ]
     },
@@ -33,22 +27,16 @@
       "label": "Builder 观点",
       "items": [
         {
-          "title": "Anthropic推动AI开发从修复维护向创新构建迈进",
-          "summary": "Boris Cherny指出，当修复和维护工作自动化后，团队可专注创新，Anthropic正处于这一转型关键阶段，鼓励团队评估自身开发流程的成熟度。",
-          "sourceUrl": "https://x.com/bcherny/status/2077929404219474148",
-          "sourceName": "X · Boris Cherny (@bcherny)"
+          "title": "构建原型是节省代币消耗的最佳策略",
+          "summary": "Thariq分享经验，建议通过构建原型、模型和概念验证来避免在实际调用中浪费大量代币，帮助开发者更高效地设计和调整AI输出，提升开发效率。",
+          "sourceUrl": "https://x.com/trq212/status/2078189833445654714",
+          "sourceName": "X · Thariq (@trq212)"
         },
         {
-          "title": "价值与开放使用的辩证关系",
-          "summary": "Aditya Agarwal提出，若某项资产开放使用后能被轻易复制，说明其原始价值可能有限，强调在开放与保护间寻找平衡的重要性。",
-          "sourceUrl": "https://x.com/adityaag/status/2077983583168278961",
-          "sourceName": "X · Aditya Agarwal (@adityaag)"
-        },
-        {
-          "title": "YC创业公司解决问题的简洁哲学",
-          "summary": "Garry Tan用简短表达强调，成为YC创业公司即意味着问题解决方案已具备，体现创业生态对问题导向的重视。",
-          "sourceUrl": "https://x.com/garrytan/status/2078007598758895769",
-          "sourceName": "X · Garry Tan (@garrytan)"
+          "title": "自动化每周优化SEO/AE0的重要性",
+          "summary": "Swyx强调未将自动化工具（如Codex、Claude、Gemini、Devin）设置为每周自动研究和提升SEO/AE0的用户，正在错失免费且应成为商品化的Alpha机会。",
+          "sourceUrl": "https://x.com/swyx/status/2078244735794413786",
+          "sourceName": "X · Swyx (@swyx)"
         }
       ]
     },
@@ -56,10 +44,10 @@
       "label": "深度播客",
       "items": [
         {
-          "title": "Ep 91: 顶级AI分析师解读当前AI炒作周期",
-          "summary": "播客中Benedict Evans深入探讨AI生态现状与未来，分析基础模型价值归属、消费者AI应用挑战及企业采纳趋势，强调技术变革的历史类比与未知物理极限，提供理性视角。",
-          "sourceUrl": "https://www.youtube.com/watch?v=vDY_ocrkQ5w",
-          "sourceName": "播客 · Unsupervised Learning"
+          "title": "OpenAI计算主管Sachin Katti：我们构建速度远远不够",
+          "summary": "MAD Podcast采访OpenAI工业计算主管Sachin Katti，深入探讨AI时代数据中心建设的规模、液冷超算技术、电力供应与核能潜力等关键基础设施挑战，揭示支撑未来智能的庞大物理世界和计算资源。",
+          "sourceUrl": "https://www.youtube.com/watch?v=wEZBlmvxx4o",
+          "sourceName": "播客 · The MAD Podcast with Matt Turck"
         }
       ]
     }
