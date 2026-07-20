@@ -2,6 +2,16 @@
   "count": 30,
   "items": [
     {
+      "date": "2026-07-20",
+      "attribution": {
+        "source": "Follow Builders",
+        "canonical": "https://github.com/zarazhangrui/follow-builders"
+      },
+      "generatedAt": "2026-07-20T04:05:03.979Z",
+      "leadTitle": "前沿开源网络安全模型展现卓越防御能力",
+      "leadParagraph": "Guillermo Rauch分享内部评测结果，Kimi K3模型在网络安全领域表现顶尖，Sol模型在防御能力上更进一步但成本较高，Fable模型则拒绝所有请求，展现了前沿开源网络安全模型的强大潜力。"
+    },
+    {
       "date": "2026-07-19",
       "attribution": {
         "source": "Follow Builders",
@@ -289,16 +299,6 @@
       },
       "generatedAt": "2026-06-20T00:00:13.377Z",
       "leadTitle": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
-      "leadParagraph": null
-    },
-    {
-      "date": "2026-06-19",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/daily/2026-06-19"
-      },
-      "generatedAt": "2026-06-19T00:00:03.961Z",
-      "leadTitle": "首个统一科学大模型 LOGOS 正式开源",
       "leadParagraph": null
     }
   ]
