@@ -2,6 +2,16 @@
   "count": 30,
   "items": [
     {
+      "date": "2026-07-21",
+      "attribution": {
+        "source": "Follow Builders",
+        "canonical": "https://github.com/zarazhangrui/follow-builders"
+      },
+      "generatedAt": "2026-07-21T03:45:42.234Z",
+      "leadTitle": "Claude Cowork 助力高效日程管理",
+      "leadParagraph": "用户分享了使用 Claude Cowork 管理日程的经验，通过自定义提示实现每周会议时间控制在20小时以内，自动去重冲突会议，并参考历史数据优化安排，体现了 AI 助理在个人时间管理中的实用价值。"
+    },
+    {
       "date": "2026-07-20",
       "attribution": {
         "source": "Follow Builders",
@@ -289,16 +299,6 @@
       },
       "generatedAt": "2026-06-21T00:00:00.462Z",
       "leadTitle": "微软双向转售GPT与DeepSeek成全球最大AI中间商",
-      "leadParagraph": null
-    },
-    {
-      "date": "2026-06-20",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/daily/2026-06-20"
-      },
-      "generatedAt": "2026-06-20T00:00:13.377Z",
-      "leadTitle": "阿里开源向量数据库Zvec，UCSD黄碧薇教授提出因果AI第四代范式",
       "leadParagraph": null
     }
   ]

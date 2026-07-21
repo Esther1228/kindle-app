@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-20",
-  "generatedAt": "2026-07-20T04:05:03.979Z",
+  "date": "2026-07-21",
+  "generatedAt": "2026-07-21T03:45:42.234Z",
   "attribution": {
     "source": "Follow Builders",
     "canonical": "https://github.com/zarazhangrui/follow-builders"
@@ -10,16 +10,28 @@
       "label": "产品与模型",
       "items": [
         {
-          "title": "前沿开源网络安全模型展现卓越防御能力",
-          "summary": "Guillermo Rauch分享内部评测结果，Kimi K3模型在网络安全领域表现顶尖，Sol模型在防御能力上更进一步但成本较高，Fable模型则拒绝所有请求，展现了前沿开源网络安全模型的强大潜力。",
-          "sourceUrl": "https://x.com/rauchg/status/2078647648307880209",
+          "title": "Claude Cowork 助力高效日程管理",
+          "summary": "用户分享了使用 Claude Cowork 管理日程的经验，通过自定义提示实现每周会议时间控制在20小时以内，自动去重冲突会议，并参考历史数据优化安排，体现了 AI 助理在个人时间管理中的实用价值。",
+          "sourceUrl": "https://x.com/_catwu/status/2079011428380602526",
+          "sourceName": "X · Cat Wu (@_catwu)"
+        },
+        {
+          "title": "AI 成本降低反而推动使用量增长",
+          "summary": "Aaron Levie 指出，AI 成本下降不会减少支出，反而会因更多任务可负担而增加使用量，包括更多代码编写、代码审查和大规模数据集运行，说明降低推理成本将持续推动 AI 基础设施需求增长。",
+          "sourceUrl": "https://x.com/levie/status/2078968158006939716",
+          "sourceName": "X · Aaron Levie (@levie)"
+        },
+        {
+          "title": "网络安全是超级智能的关键测试场",
+          "summary": "Guillermo Rauch 认为网络安全是衡量超级智能的最佳基准，因其要求模型具备超越常规编程的推理能力和“角落思维”，少数人类能胜任，开源模型在此领域表现优异，预示其未来潜力巨大。",
+          "sourceUrl": "https://x.com/rauchg/status/2078912929714356698",
           "sourceName": "X · Guillermo Rauch (@rauchg)"
         },
         {
-          "title": "父子联手打造基于ChatGPT的乘法学习网站",
-          "summary": "Peter Yang与8岁女儿合作开发了一个利用ChatGPT生成图像和角色的乘法表学习网站，配以音乐和计时挑战关卡，提升儿童学习兴趣和互动体验。",
-          "sourceUrl": "https://x.com/petergyang/status/2078638568784994686",
-          "sourceName": "X · Peter Yang (@petergyang)"
+          "title": "非键盘爱好者也称赞定制机械键盘的魅力",
+          "summary": "一位非定制机械键盘爱好者在社交平台分享了对定制键盘的认可，体现了机械键盘在用户体验和个性化方面的吸引力，反映了硬件定制化趋势的持续热度。",
+          "sourceUrl": "https://x.com/swyx/status/2079061713048199625",
+          "sourceName": "X · Swyx (@swyx)"
         }
       ]
     },
@@ -27,22 +39,16 @@
       "label": "Builder 观点",
       "items": [
         {
-          "title": "Aaron Levie论AI生态系统的多元创新与未来趋势",
-          "summary": "Aaron Levie指出，AI价值不会集中于少数公司，前沿AI实验室推动模型进步，同时多样化生态系统正将AI应用于法律、IT、安全等多个企业场景，推动实际落地和广泛采用。",
-          "sourceUrl": "https://x.com/levie/status/2078567715544121815",
+          "title": "开放源代码模型对 AI 竞争力和安全性的影响",
+          "summary": "Aaron Levie 讨论了开放源代码模型对 AI 生态的影响，指出封闭前沿模型访问将削弱竞争力，全球不同生态系统对开源模型的利用可能导致美国企业处于劣势，呼吁调整 AI 监管策略以适应开源模型的强大实力。",
+          "sourceUrl": "https://x.com/levie/status/2078992778449850769",
           "sourceName": "X · Aaron Levie (@levie)"
         },
         {
-          "title": "Guillermo Rauch谈AI与人类智能的本质差异",
-          "summary": "Rauch认为‘AGI’概念已过时，AI在多数经济相关任务上优于人类，但无法替代人类独特的关怀和身份。他强调保持人类独特性和创造力是AI发展的核心。",
-          "sourceUrl": "https://x.com/rauchg/status/2078548458714406959",
-          "sourceName": "X · Guillermo Rauch (@rauchg)"
-        },
-        {
-          "title": "Zara Zhang建议构建个人化AI评测集",
-          "summary": "Zara Zhang提倡每个人应开发与自身工作生活相关的‘个人评测集’，以更准确评估AI模型的实际效用，超越行业通用基准的局限，探索模型能力边界。",
-          "sourceUrl": "https://x.com/zarazhangrui/status/2078666187026911488",
-          "sourceName": "X · Zara Zhang (@zarazhangrui)"
+          "title": "消费者订阅业务难以形成巨头，软件更多由企业购买",
+          "summary": "Amjad Masad 分析消费者支出主要集中在食品、房租、娱乐和购物，软件消费多由企业承担，除 Netflix、Spotify 等少数例外，难以形成巨大的消费者订阅业务，反映了软件市场的企业导向特征。",
+          "sourceUrl": "https://x.com/amasad/status/2079086360703680583",
+          "sourceName": "X · Amjad Masad (@amasad)"
         }
       ]
     },
@@ -50,10 +56,10 @@
       "label": "深度播客",
       "items": [
         {
-          "title": "AI先驱Jürgen Schmidhuber谈AI现状与递归自我改进",
-          "summary": "Jürgen Schmidhuber分享了对AI硬件限制、递归自我改进（RSI）技术路径及其计算代价的见解，强调当前主流RSI基于神经网络权重调整，未来发展需兼顾效率与数学最优性，展望AI进步将是渐进而非突变。",
-          "sourceUrl": "https://www.youtube.com/watch?v=RKjR8DQ40po",
-          "sourceName": "播客 · Unsupervised Learning"
+          "title": "Stripe AI 负责人详解 AI 代理的商业应用与挑战",
+          "summary": "Stripe AI 负责人 Emily Sense 在播客中分享了 AI 代理在商业中的应用进展，包括代理自主发现和购买服务、与多平台合作实现产品展示和交易、Agentic Commerce 协议的设计理念及其对未来商业模式的影响，深入探讨了代理经济的现状与未来。",
+          "sourceUrl": "https://www.youtube.com/@DataDrivenNYC/videos",
+          "sourceName": "播客 · The MAD Podcast with Matt Turck"
         }
       ]
     }
