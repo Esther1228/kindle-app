@@ -2,6 +2,16 @@
   "count": 30,
   "items": [
     {
+      "date": "2026-07-22",
+      "attribution": {
+        "source": "Follow Builders",
+        "canonical": "https://github.com/zarazhangrui/follow-builders"
+      },
+      "generatedAt": "2026-07-22T03:47:05.529Z",
+      "leadTitle": "多模型代理系统将成为未来AI设计核心",
+      "leadParagraph": "Aaron Levie分享了Cursor团队的新研究，指出使用前沿模型作为规划者和协调者，结合成本更低的执行模型，可显著降低项目代币消耗，实现15倍成本提升。这种基于任务阶段路由不同模型的设计模式，将成为复杂代理的核心，推动AI应用层的差异化。"
+    },
+    {
       "date": "2026-07-21",
       "attribution": {
         "source": "Follow Builders",
@@ -289,16 +299,6 @@
       },
       "generatedAt": "2026-06-22T00:00:00.932Z",
       "leadTitle": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
-      "leadParagraph": null
-    },
-    {
-      "date": "2026-06-21",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/daily/2026-06-21"
-      },
-      "generatedAt": "2026-06-21T00:00:00.462Z",
-      "leadTitle": "微软双向转售GPT与DeepSeek成全球最大AI中间商",
       "leadParagraph": null
     }
   ]

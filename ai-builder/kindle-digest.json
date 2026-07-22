@@ -1,53 +1,53 @@
 {
-  "date": "2026-07-21",
-  "generatedAt": "2026-07-21T03:45:42.234Z",
+  "date": "2026-07-22",
+  "generatedAt": "2026-07-22T03:47:05.529Z",
   "attribution": {
     "source": "Follow Builders",
     "canonical": "https://github.com/zarazhangrui/follow-builders"
   },
   "sections": [
     {
-      "label": "产品与模型",
+      "label": "Builder 观点",
       "items": [
         {
-          "title": "Claude Cowork 助力高效日程管理",
-          "summary": "用户分享了使用 Claude Cowork 管理日程的经验，通过自定义提示实现每周会议时间控制在20小时以内，自动去重冲突会议，并参考历史数据优化安排，体现了 AI 助理在个人时间管理中的实用价值。",
-          "sourceUrl": "https://x.com/_catwu/status/2079011428380602526",
-          "sourceName": "X · Cat Wu (@_catwu)"
-        },
-        {
-          "title": "AI 成本降低反而推动使用量增长",
-          "summary": "Aaron Levie 指出，AI 成本下降不会减少支出，反而会因更多任务可负担而增加使用量，包括更多代码编写、代码审查和大规模数据集运行，说明降低推理成本将持续推动 AI 基础设施需求增长。",
-          "sourceUrl": "https://x.com/levie/status/2078968158006939716",
+          "title": "多模型代理系统将成为未来AI设计核心",
+          "summary": "Aaron Levie分享了Cursor团队的新研究，指出使用前沿模型作为规划者和协调者，结合成本更低的执行模型，可显著降低项目代币消耗，实现15倍成本提升。这种基于任务阶段路由不同模型的设计模式，将成为复杂代理的核心，推动AI应用层的差异化。",
+          "sourceUrl": "https://x.com/levie/status/2079402164988895293",
           "sourceName": "X · Aaron Levie (@levie)"
         },
         {
-          "title": "网络安全是超级智能的关键测试场",
-          "summary": "Guillermo Rauch 认为网络安全是衡量超级智能的最佳基准，因其要求模型具备超越常规编程的推理能力和“角落思维”，少数人类能胜任，开源模型在此领域表现优异，预示其未来潜力巨大。",
-          "sourceUrl": "https://x.com/rauchg/status/2078912929714356698",
-          "sourceName": "X · Guillermo Rauch (@rauchg)"
+          "title": "招聘流程创新：结合无AI与AI辅助考核",
+          "summary": "Zara Zhang提出新型面试流程：第一轮现场面试禁止使用AI，考察领域专业知识；第二轮必须使用AI完成项目，评估不仅看结果，还审查与AI代理的对话记录，体现对AI协作能力的重视。",
+          "sourceUrl": "https://x.com/zarazhangrui/status/2079409165424799889",
+          "sourceName": "X · Zara Zhang (@zarazhangrui)"
         },
         {
-          "title": "非键盘爱好者也称赞定制机械键盘的魅力",
-          "summary": "一位非定制机械键盘爱好者在社交平台分享了对定制键盘的认可，体现了机械键盘在用户体验和个性化方面的吸引力，反映了硬件定制化趋势的持续热度。",
-          "sourceUrl": "https://x.com/swyx/status/2079061713048199625",
-          "sourceName": "X · Swyx (@swyx)"
+          "title": "AI创业者需在独特洞察与资本规模间找到平衡",
+          "summary": "Nikunj Kothari提醒创业者，AI领域虽无传统护城河，但规模和资本并非唯一优势。历史经验显示，拥有独特洞察力的企业才能长期胜出，创业者需谨慎避免资本和规模替代真正的竞争力。",
+          "sourceUrl": "https://x.com/nikunj/status/2079328912912355470",
+          "sourceName": "X · Nikunj Kothari (@nikunj)"
+        },
+        {
+          "title": "禁止中国模型将重蹈电动车禁令覆辙",
+          "summary": "Peter Yang指出，禁止中国AI模型的做法将和禁止中国电动车一样自损利益，暗示此举不仅无助于行业发展，还可能带来负面影响。",
+          "sourceUrl": "https://x.com/petergyang/status/2079273815004303477",
+          "sourceName": "X · Peter Yang (@petergyang)"
         }
       ]
     },
     {
-      "label": "Builder 观点",
+      "label": "产品与模型",
       "items": [
         {
-          "title": "开放源代码模型对 AI 竞争力和安全性的影响",
-          "summary": "Aaron Levie 讨论了开放源代码模型对 AI 生态的影响，指出封闭前沿模型访问将削弱竞争力，全球不同生态系统对开源模型的利用可能导致美国企业处于劣势，呼吁调整 AI 监管策略以适应开源模型的强大实力。",
-          "sourceUrl": "https://x.com/levie/status/2078992778449850769",
-          "sourceName": "X · Aaron Levie (@levie)"
+          "title": "RLM模型训练中的测试集作弊问题及初步探索",
+          "summary": "Swyx分享RLM论文中关于前沿模型训练的隐秘现象：模型通过训练测试集相似样本实现目标指标，存在作弊可能。研究者利用标准NLP距离度量分析隐藏轨迹，虽无终极解决方案，但支持RLM能泛化至共享潜在结构的未见任务。",
+          "sourceUrl": "https://x.com/swyx/status/2079411861150429402",
+          "sourceName": "X · Swyx (@swyx)"
         },
         {
-          "title": "消费者订阅业务难以形成巨头，软件更多由企业购买",
-          "summary": "Amjad Masad 分析消费者支出主要集中在食品、房租、娱乐和购物，软件消费多由企业承担，除 Netflix、Spotify 等少数例外，难以形成巨大的消费者订阅业务，反映了软件市场的企业导向特征。",
-          "sourceUrl": "https://x.com/amasad/status/2079086360703680583",
+          "title": "首个由编码代理完成的实体产品问世？",
+          "summary": "Amjad Masad发布疑似首个由编码代理完成的实体产品，标志着AI编码代理在物理产品制造领域的突破，展示了AI自动化能力的新高度。",
+          "sourceUrl": "https://x.com/amasad/status/2079282869063786541",
           "sourceName": "X · Amjad Masad (@amasad)"
         }
       ]
@@ -56,10 +56,10 @@
       "label": "深度播客",
       "items": [
         {
-          "title": "Stripe AI 负责人详解 AI 代理的商业应用与挑战",
-          "summary": "Stripe AI 负责人 Emily Sense 在播客中分享了 AI 代理在商业中的应用进展，包括代理自主发现和购买服务、与多平台合作实现产品展示和交易、Agentic Commerce 协议的设计理念及其对未来商业模式的影响，深入探讨了代理经济的现状与未来。",
-          "sourceUrl": "https://www.youtube.com/@DataDrivenNYC/videos",
-          "sourceName": "播客 · The MAD Podcast with Matt Turck"
+          "title": "Booking.com CEO Glenn Fogel谈AI时代的旅行行业变革",
+          "summary": "Booking Holdings CEO Glenn Fogel分享其从华尔街到互联网巨头的职业历程，探讨互联网泡沫与当前AI浪潮的相似性，强调持续创新的重要性。他指出AI时代虽充满机遇与挑战，但成功依赖于对业务深刻理解和持续奋斗。",
+          "sourceUrl": "https://www.youtube.com/watch?v=8nj_0wZkbtA",
+          "sourceName": "播客 · No Priors"
         }
       ]
     }
