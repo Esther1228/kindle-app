@@ -2,6 +2,16 @@
   "count": 30,
   "items": [
     {
+      "date": "2026-07-23",
+      "attribution": {
+        "source": "Follow Builders",
+        "canonical": "https://github.com/zarazhangrui/follow-builders"
+      },
+      "generatedAt": "2026-07-23T03:45:19.867Z",
+      "leadTitle": "Karpathy：通过长时间语音即兴表达提升大模型理解力",
+      "leadParagraph": "Karpathy分享了一种与大型语言模型（LLM）交互的技巧，即通过长时间的语音即兴表达，让模型捕捉更多上下文信息，进而更准确地理解用户意图，减少后续纠正工作，提高人机思维融合效率。"
+    },
+    {
       "date": "2026-07-22",
       "attribution": {
         "source": "Follow Builders",
@@ -289,16 +299,6 @@
       },
       "generatedAt": "2026-06-23T00:00:00.457Z",
       "leadTitle": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M",
-      "leadParagraph": null
-    },
-    {
-      "date": "2026-06-22",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/daily/2026-06-22"
-      },
-      "generatedAt": "2026-06-22T00:00:00.932Z",
-      "leadTitle": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
       "leadParagraph": null
     }
   ]

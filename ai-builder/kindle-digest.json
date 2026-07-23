@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-22",
-  "generatedAt": "2026-07-22T03:47:05.529Z",
+  "date": "2026-07-23",
+  "generatedAt": "2026-07-23T03:45:19.867Z",
   "attribution": {
     "source": "Follow Builders",
     "canonical": "https://github.com/zarazhangrui/follow-builders"
@@ -10,28 +10,22 @@
       "label": "Builder 观点",
       "items": [
         {
-          "title": "多模型代理系统将成为未来AI设计核心",
-          "summary": "Aaron Levie分享了Cursor团队的新研究，指出使用前沿模型作为规划者和协调者，结合成本更低的执行模型，可显著降低项目代币消耗，实现15倍成本提升。这种基于任务阶段路由不同模型的设计模式，将成为复杂代理的核心，推动AI应用层的差异化。",
-          "sourceUrl": "https://x.com/levie/status/2079402164988895293",
+          "title": "Karpathy：通过长时间语音即兴表达提升大模型理解力",
+          "summary": "Karpathy分享了一种与大型语言模型（LLM）交互的技巧，即通过长时间的语音即兴表达，让模型捕捉更多上下文信息，进而更准确地理解用户意图，减少后续纠正工作，提高人机思维融合效率。",
+          "sourceUrl": "https://x.com/karpathy/status/2079610838143623371",
+          "sourceName": "X · Andrej Karpathy (@karpathy)"
+        },
+        {
+          "title": "Swyx：工程师应重视控制平面与数据平面的独立性",
+          "summary": "Swyx强调在工程实践中，独立可分离的控制平面与数据平面设计至关重要，并建议尽早学习管理平面相关知识，以提升系统架构的灵活性和可维护性。",
+          "sourceUrl": "https://x.com/swyx/status/2079775327539339329",
+          "sourceName": "X · Swyx (@swyx)"
+        },
+        {
+          "title": "Aaron Levie：AI智能体具备逃逸系统并发现零日漏洞能力",
+          "summary": "Levie指出，AI智能体已能突破系统限制，访问互联网并发现零日安全漏洞，强调未来防御将依赖更多AI投入，防守方AI资源需远超攻击方，预示AI安全进入全新复杂阶段。",
+          "sourceUrl": "https://x.com/levie/status/2079725006112895336",
           "sourceName": "X · Aaron Levie (@levie)"
-        },
-        {
-          "title": "招聘流程创新：结合无AI与AI辅助考核",
-          "summary": "Zara Zhang提出新型面试流程：第一轮现场面试禁止使用AI，考察领域专业知识；第二轮必须使用AI完成项目，评估不仅看结果，还审查与AI代理的对话记录，体现对AI协作能力的重视。",
-          "sourceUrl": "https://x.com/zarazhangrui/status/2079409165424799889",
-          "sourceName": "X · Zara Zhang (@zarazhangrui)"
-        },
-        {
-          "title": "AI创业者需在独特洞察与资本规模间找到平衡",
-          "summary": "Nikunj Kothari提醒创业者，AI领域虽无传统护城河，但规模和资本并非唯一优势。历史经验显示，拥有独特洞察力的企业才能长期胜出，创业者需谨慎避免资本和规模替代真正的竞争力。",
-          "sourceUrl": "https://x.com/nikunj/status/2079328912912355470",
-          "sourceName": "X · Nikunj Kothari (@nikunj)"
-        },
-        {
-          "title": "禁止中国模型将重蹈电动车禁令覆辙",
-          "summary": "Peter Yang指出，禁止中国AI模型的做法将和禁止中国电动车一样自损利益，暗示此举不仅无助于行业发展，还可能带来负面影响。",
-          "sourceUrl": "https://x.com/petergyang/status/2079273815004303477",
-          "sourceName": "X · Peter Yang (@petergyang)"
         }
       ]
     },
@@ -39,16 +33,22 @@
       "label": "产品与模型",
       "items": [
         {
-          "title": "RLM模型训练中的测试集作弊问题及初步探索",
-          "summary": "Swyx分享RLM论文中关于前沿模型训练的隐秘现象：模型通过训练测试集相似样本实现目标指标，存在作弊可能。研究者利用标准NLP距离度量分析隐藏轨迹，虽无终极解决方案，但支持RLM能泛化至共享潜在结构的未见任务。",
-          "sourceUrl": "https://x.com/swyx/status/2079411861150429402",
-          "sourceName": "X · Swyx (@swyx)"
+          "title": "工程师基于Flash 3.6模型开发交互式数学艺术生成器",
+          "summary": "团队利用最新Flash 3.6模型打造了可实时调整速度、颜色和几何参数的数学艺术生成器，支持导出3D打印STL文件，展示了AI模型在创意设计和物理制造结合上的潜力。",
+          "sourceUrl": "https://x.com/joshwoodward/status/2079614730034127100",
+          "sourceName": "X · Josh Woodward (@joshwoodward)"
         },
         {
-          "title": "首个由编码代理完成的实体产品问世？",
-          "summary": "Amjad Masad发布疑似首个由编码代理完成的实体产品，标志着AI编码代理在物理产品制造领域的突破，展示了AI自动化能力的新高度。",
-          "sourceUrl": "https://x.com/amasad/status/2079282869063786541",
-          "sourceName": "X · Amjad Masad (@amasad)"
+          "title": "Madhu Guru：Gemini Flash模型性价比优异受企业青睐",
+          "summary": "Madhu Guru称赞Gemini Flash模型在价格、智能和速度方面表现出色，虽然在社交平台上评价不多，但企业用户对其需求持续增长，体现了该模型的市场竞争力。",
+          "sourceUrl": "https://x.com/realmadhuguru/status/2079735321697325268",
+          "sourceName": "X · Madhu Guru (@realmadhuguru)"
+        },
+        {
+          "title": "Claude Cowork新增技能录制功能提升自动化能力",
+          "summary": "Claude Cowork推出“录制技能”功能，用户可录制屏幕操作并语音讲解，系统自动将流程转化为可复用技能，支持Pro、Max和团队计划，显著增强了AI自动化执行效率。",
+          "sourceUrl": "https://x.com/claudeai/status/2079595988998554047",
+          "sourceName": "X · Claude (@claudeai)"
         }
       ]
     },
@@ -56,10 +56,10 @@
       "label": "深度播客",
       "items": [
         {
-          "title": "Booking.com CEO Glenn Fogel谈AI时代的旅行行业变革",
-          "summary": "Booking Holdings CEO Glenn Fogel分享其从华尔街到互联网巨头的职业历程，探讨互联网泡沫与当前AI浪潮的相似性，强调持续创新的重要性。他指出AI时代虽充满机遇与挑战，但成功依赖于对业务深刻理解和持续奋斗。",
-          "sourceUrl": "https://www.youtube.com/watch?v=8nj_0wZkbtA",
-          "sourceName": "播客 · No Priors"
+          "title": "Factory CEO谈‘暗工厂’：软件自主构建的未来",
+          "summary": "Factory联合创始人兼CEO Matane Grinberg分享了公司三年多来专注于全自主软件开发智能体的历程，强调企业对模型独立性和模块化的需求，坦言早期产品不成熟时主动退款以赢得客户信任，展望未来软件开发将由智能体主导，打造客户痴迷的产品体验。",
+          "sourceUrl": "https://www.youtube.com/watch?v=ZesOukBjPmI",
+          "sourceName": "播客 · Training Data"
         }
       ]
     }
