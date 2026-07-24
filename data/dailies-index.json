@@ -2,6 +2,16 @@
   "count": 30,
   "items": [
     {
+      "date": "2026-07-24",
+      "attribution": {
+        "source": "Follow Builders",
+        "canonical": "https://github.com/zarazhangrui/follow-builders"
+      },
+      "generatedAt": "2026-07-24T03:44:39.021Z",
+      "leadTitle": "使用中国训练的大型语言模型不意味着数据被获取",
+      "leadParagraph": "大型语言模型本质上是一个巨大的数字文件，编码了智能。一些模型允许用户下载权重文件并在自己的云环境中运行，模型训练者不再介入，用户数据始终保留在运行环境中，保障数据隐私安全。"
+    },
+    {
       "date": "2026-07-23",
       "attribution": {
         "source": "Follow Builders",
@@ -289,16 +299,6 @@
       },
       "generatedAt": "2026-06-24T00:00:00.978Z",
       "leadTitle": "FastWan-QAD：单卡5090上1.8秒生成5秒视频",
-      "leadParagraph": null
-    },
-    {
-      "date": "2026-06-23",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/daily/2026-06-23"
-      },
-      "generatedAt": "2026-06-23T00:00:00.457Z",
-      "leadTitle": "PP-OCRv6 on Hugging Face：50 语言 OCR，参数规模 1.5M 至 34.5M",
       "leadParagraph": null
     }
   ]

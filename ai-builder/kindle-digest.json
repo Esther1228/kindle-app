@@ -1,54 +1,42 @@
 {
-  "date": "2026-07-23",
-  "generatedAt": "2026-07-23T03:45:19.867Z",
+  "date": "2026-07-24",
+  "generatedAt": "2026-07-24T03:44:39.021Z",
   "attribution": {
     "source": "Follow Builders",
     "canonical": "https://github.com/zarazhangrui/follow-builders"
   },
   "sections": [
     {
-      "label": "Builder 观点",
+      "label": "产品与模型",
       "items": [
         {
-          "title": "Karpathy：通过长时间语音即兴表达提升大模型理解力",
-          "summary": "Karpathy分享了一种与大型语言模型（LLM）交互的技巧，即通过长时间的语音即兴表达，让模型捕捉更多上下文信息，进而更准确地理解用户意图，减少后续纠正工作，提高人机思维融合效率。",
-          "sourceUrl": "https://x.com/karpathy/status/2079610838143623371",
-          "sourceName": "X · Andrej Karpathy (@karpathy)"
+          "title": "使用中国训练的大型语言模型不意味着数据被获取",
+          "summary": "大型语言模型本质上是一个巨大的数字文件，编码了智能。一些模型允许用户下载权重文件并在自己的云环境中运行，模型训练者不再介入，用户数据始终保留在运行环境中，保障数据隐私安全。",
+          "sourceUrl": "https://x.com/realmadhuguru/status/2080150245011509593",
+          "sourceName": "X · Madhu Guru (@realmadhuguru)"
         },
         {
-          "title": "Swyx：工程师应重视控制平面与数据平面的独立性",
-          "summary": "Swyx强调在工程实践中，独立可分离的控制平面与数据平面设计至关重要，并建议尽早学习管理平面相关知识，以提升系统架构的灵活性和可维护性。",
-          "sourceUrl": "https://x.com/swyx/status/2079775327539339329",
-          "sourceName": "X · Swyx (@swyx)"
-        },
-        {
-          "title": "Aaron Levie：AI智能体具备逃逸系统并发现零日漏洞能力",
-          "summary": "Levie指出，AI智能体已能突破系统限制，访问互联网并发现零日安全漏洞，强调未来防御将依赖更多AI投入，防守方AI资源需远超攻击方，预示AI安全进入全新复杂阶段。",
-          "sourceUrl": "https://x.com/levie/status/2079725006112895336",
-          "sourceName": "X · Aaron Levie (@levie)"
+          "title": "Claude Code 推出安全插件，支持终端代码漏洞扫描",
+          "summary": "Claude Code 的安全插件现已进入测试阶段，用户可在提交代码前或对整个代码库进行漏洞扫描，直接在终端运行，提升开发安全性和效率。",
+          "sourceUrl": "https://x.com/claudeai/status/2079990597973057691",
+          "sourceName": "X · Claude (@claudeai)"
         }
       ]
     },
     {
-      "label": "产品与模型",
+      "label": "Builder 观点",
       "items": [
         {
-          "title": "工程师基于Flash 3.6模型开发交互式数学艺术生成器",
-          "summary": "团队利用最新Flash 3.6模型打造了可实时调整速度、颜色和几何参数的数学艺术生成器，支持导出3D打印STL文件，展示了AI模型在创意设计和物理制造结合上的潜力。",
-          "sourceUrl": "https://x.com/joshwoodward/status/2079614730034127100",
-          "sourceName": "X · Josh Woodward (@joshwoodward)"
+          "title": "Anthropic经济学负责人：AI更多是增强而非替代人类工作",
+          "summary": "Anthropic经济学负责人指出，AI目前主要补充专业技能，依赖人类监督复杂任务，自动化的是工作中的部分任务而非全部，反而提升了整体产出和岗位需求，尤其在软件工程领域表现明显。",
+          "sourceUrl": "https://x.com/levie/status/2080156917373214900",
+          "sourceName": "X · Aaron Levie (@levie)"
         },
         {
-          "title": "Madhu Guru：Gemini Flash模型性价比优异受企业青睐",
-          "summary": "Madhu Guru称赞Gemini Flash模型在价格、智能和速度方面表现出色，虽然在社交平台上评价不多，但企业用户对其需求持续增长，体现了该模型的市场竞争力。",
-          "sourceUrl": "https://x.com/realmadhuguru/status/2079735321697325268",
-          "sourceName": "X · Madhu Guru (@realmadhuguru)"
-        },
-        {
-          "title": "Claude Cowork新增技能录制功能提升自动化能力",
-          "summary": "Claude Cowork推出“录制技能”功能，用户可录制屏幕操作并语音讲解，系统自动将流程转化为可复用技能，支持Pro、Max和团队计划，显著增强了AI自动化执行效率。",
-          "sourceUrl": "https://x.com/claudeai/status/2079595988998554047",
-          "sourceName": "X · Claude (@claudeai)"
+          "title": "创业文化源自创始人、早期团队与产品的个性融合",
+          "summary": "创业文化由创始人、早期团队和早期产品的个性共同塑造，既有自上而下的影响，也有自发形成的过程。文化一致性对公司发展至关重要，避免出现割裂的文化片段。",
+          "sourceUrl": "https://x.com/adityaag/status/2079993986283123147",
+          "sourceName": "X · Aditya Agarwal (@adityaag)"
         }
       ]
     },
@@ -56,10 +44,10 @@
       "label": "深度播客",
       "items": [
         {
-          "title": "Factory CEO谈‘暗工厂’：软件自主构建的未来",
-          "summary": "Factory联合创始人兼CEO Matane Grinberg分享了公司三年多来专注于全自主软件开发智能体的历程，强调企业对模型独立性和模块化的需求，坦言早期产品不成熟时主动退款以赢得客户信任，展望未来软件开发将由智能体主导，打造客户痴迷的产品体验。",
-          "sourceUrl": "https://www.youtube.com/watch?v=ZesOukBjPmI",
-          "sourceName": "播客 · Training Data"
+          "title": "Every团队如何利用AI实现史上最大订阅收入增长",
+          "summary": "播客分享Every团队推出Builder Pack的全过程，介绍该产品如何整合多款AI工具为用户提供专属优惠和使用额度，团队成员讲述了自动化AB测试流程和利用Claude等工具提升工作效率的实践经验。",
+          "sourceUrl": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+          "sourceName": "播客 · AI & I by Every"
         }
       ]
     }
